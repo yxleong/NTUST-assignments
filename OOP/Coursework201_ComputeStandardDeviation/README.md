@@ -1,4 +1,4 @@
-# Computes the average and standard deviation
+# Compute the average and standard deviation
 
 ## Problem Statement
 
