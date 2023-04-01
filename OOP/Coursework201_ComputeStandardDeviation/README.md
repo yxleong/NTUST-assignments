@@ -26,7 +26,7 @@ Average:3	Standard deviation:1.41421
 Average:3.5	Standard deviation:1.70783
 Average:7	Standard deviation:0
 ```
-### Additional Information
+## Additional Information
 * Easy, only basic programming language syntax and structure are needed.
 * Solving time: 15 minutes
 * Proposer: ZZY
