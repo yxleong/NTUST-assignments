@@ -4,10 +4,10 @@
 Generate a text-based histogram for a quiz of students. The quiz is graded on a scale from 0 to 5. Please design a program that allows the user to enter the student's grades one by one and count the times of each grade appears. When the input finished, please print the text-based histogram with the format in the "Output" section below. The program should be capable of handling an arbitrary number of student grades.
 
 ### Input
-The program should take input from a file named *grade.txt*. The file will contain a list of integers separated by spaces or newlines.
+The program should take input from a file named `grade.txt`. The file will contain a list of integers separated by spaces or newlines.
 
 ### Output
-The program should output a two-column table sorted in descending order by the count value. The first column should contain the list of all numbers, and the second column should contain the count of each of them. The output should be written to a file named *grades.Output*.
+The program should output a two-column table sorted in descending order by the count value. The first column should contain the list of all numbers, and the second column should contain the count of each of them. The output should be written to a file named `grades.Output`.
 
 ### Sample Input / Output
 
