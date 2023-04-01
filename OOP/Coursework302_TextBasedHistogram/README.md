@@ -13,11 +13,7 @@ The program should output a two-column table sorted in descending order by the c
 
 Input:
 ```
-3 0 1 3 3 5 5 4 5 4
-
-0 5 0 5 0 4 5 5 4 3 4 5 1 4 1 5 5 1 4 3 5 5 0 1 1 1 1 3 0 1 1 5 4 4 4 2 2 4 1 2 3 2 2 0 2 2 0 4
-
-3 0 4 1 2 1 1 4 2 0 2 0 4 5 2 5 4 3 4 5 2 5 4 4 3 3 1 5 1 0 4 2 0 4 0 3 2 0 3 2 2 3 5 2 0 2 0 3 4 1 4 3 1 0 5 1 4 5 1
+grade.txt
 ```
 Output:
 ```
@@ -42,6 +38,10 @@ Output:
 12 grade(s) of 4
 8 grade(s) of 5
 ```
+
+## Note
+* The input file grade.txt is provided
+* The output file grades.Output has been attached. 
 
 ## Additional Information
 * Easy, only basic programming language syntax and structure are needed.
