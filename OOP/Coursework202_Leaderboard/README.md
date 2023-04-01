@@ -36,11 +36,11 @@ Didier
 9800
 ```
 
-### Notes
+## Notes
 * This problem requires defining a *getHighScores* function that takes two parameters: an array of strings and an array of integers. The function reads all the data in the input file and finds the top three players' names and scores. Call this function in *main* and output the top three players and scores.
 * The problem does not consider ties.
 
-### Additional Information
+## Additional Information
 * Easy, only basic programming language syntax and structure are needed.
 * Solving time: 20 minutes
 * Contributors: 陳俊儒, 林承達, 廖宣瑋
