@@ -26,7 +26,7 @@ Output:
 135867626 hours 53 minutes and 6 seconds
 158065316 hours 23 minutes and 35 seconds
 ```
-### Additional Information
+## Additional Information
 * Easy, only basic programming language syntax and structure are needed.
 * Solving time: 5 minutes
 * Contributors: 陳泳峰, 陳宥潤, 范茗翔
