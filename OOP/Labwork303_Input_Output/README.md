@@ -1,44 +1,34 @@
-# Print Standard Format
+# Input_Output
 
 ## Problem Statement
-Print out information for N employees in a clean format. Each employee has three attributes: Name, Salary and Bonus.
+Given an arbitrary number X (double), a positive integer M, a positive integer N, and a character C, reformat the decimal part of X to N characters and fill the remaining characters with 0's if necessary. If X (including negative and decimal points) is still less than M characters, fill the front with character C to make it exactly M characters long.
 
 ### Input
-The input contains several cases, each of them as described below.
-The first line of input contains an integer N (10^6 >= N > 0), which represents the number of employees. Each of the next N lines indicates the information of each employee with three attributes: Name, Salary (between 10^9 ~ 0) and Bonus (between 10^9 ~ 0). Each attribute will be separated by one space.
+Each line of input represents a group of X, M, N, and C, separated by spaces.
+* X: The target number that needs to be formatted.
+* M: The total length of the output (including negative sign and decimal point).
+* N: The number of reserved digits of the decimal part.
+* C: The character to be filled when the length is not enough (less than M digits).
 ```
-3
-Alexandrescu 20000000 99999
-Frank 100000 50
-Andy 1 1
-```
-```
-4
-Andy 100 200
-Anna 400 9999
-Lipp 200 200
-Stan 500 200
+3.14159265358979323846 5 2 G
+3.14 8 3 X
+3 8 0 C
+-3 8 5 C
 ```
 
 ### Output
-For each set of input data (from the previous N to the next N), please make sure the width of each column is the same as the attribute with the longest width in each column. Use the symbol "|" to separate each column and align the content to the right. Note that for numeric attributes (Salary, Bonus), the content should be indented by two additional spaces.
+Each line of output is formatted according to the requirements of the problem.
 ```
-Alexandrescu|  20000000|  99999
-       Frank|    100000|     50
-        Andy|         1|      1
+G3.14
+XXX3.140
+CCCCCCC3
+-3.00000
 ```
-```
-Andy|  100|   200
-Anna|  400|  9999
-Lipp|  200|   200
-Stan|  500|   200
-```
-
-### Note：
-* The name attribute does not contain spaces.
-* The program should end after reading EOF.
+### Note
+* The program continues to ask for input until EOF is reached.
+* C may be a space.
 
 ## Additional Information
-* Eazy, only basic programming syntax and structure are required.
-* Solving time: 10 minutes
-* Contributors: 謝宜杭, 林承達, 廖宣瑋
+* Medium, multiple programming grammars and structures are required
+* Solving time: 30 minutes
+* Contributors: 王聖文, 張子樂, 林岳儒
