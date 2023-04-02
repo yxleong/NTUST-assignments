@@ -1,7 +1,7 @@
-# Hello World
+# Writing Hello World
 
 ## Problem Statement
-Write a program that reads an integer n from the user and outputs the string "Hello World!" n times.
+Read-in an integer n, and output string "Hello World!" for n times. The program is supposed to keep reading until EOF flag is met.
 
 ## Input
 The program reads a single integer n from the user.
