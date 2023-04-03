@@ -116,4 +116,4 @@ Insert Error
 ## Additional Information
 * Medium, multiple programming grammars and structures are required.
 * Solving time: 30 minutes
-* Proposer: 溫勇威, 陳靖升, 鍾賢廣
+* Contributors: 溫勇威, 陳靖升, 鍾賢廣
