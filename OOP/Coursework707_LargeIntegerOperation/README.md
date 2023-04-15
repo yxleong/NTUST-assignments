@@ -15,7 +15,8 @@ Write a program to perform these computations and output the results as integers
 The input consists of multiple lines, each containing two large integers `a` and `b` separated by a new line character. Note that `a` and `b` can be very large numbers, with more than 200 digits.
 ```
 684206820568913977247831143321345972981675861223241672511715
-
+```
+```
 377717064100214575610627379024516367048953192887369481660644
 ```
 
@@ -23,9 +24,11 @@ The input consists of multiple lines, each containing two large integers `a` and
 Output three integers representing the sum, difference, and product of `a` and `b` respectively.
 ```
 1061923884669128552858458522345862340030629054110611154172359
-
+```
+```
 306489756468699401637203764296829605932722668335872190851071
-
+```
+```
 22862032100015531960919852030141400331719662067383470776767987317031264024379854233801628519328864632781420435386761621
 ```
 
