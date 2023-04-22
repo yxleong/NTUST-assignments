@@ -1,0 +1,11 @@
+﻿  main.c
+D:\temp\Project111\Project1\main.c(31,12): error C2057: expected constant expression
+D:\temp\Project111\Project1\main.c(31,12): error C2466: cannot allocate an array of constant size 0
+D:\temp\Project111\Project1\main.c(32,12): error C2057: expected constant expression
+D:\temp\Project111\Project1\main.c(32,12): error C2466: cannot allocate an array of constant size 0
+D:\temp\Project111\Project1\main.c(59,18): error C2057: expected constant expression
+D:\temp\Project111\Project1\main.c(59,18): error C2466: cannot allocate an array of constant size 0
+D:\temp\Project111\Project1\main.c(17,13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\temp\Project111\Project1\main.c(21,3): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\temp\Project111\Project1\main.c(34,6): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\temp\Project111\Project1\main.c(92,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
