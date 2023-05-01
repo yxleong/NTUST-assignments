@@ -5,16 +5,14 @@ Define a class named `PrimeNumber` that stores a prime number.
 
 * The class `PrimeNumber` has only one variable `value(int)`.
 * The class `PrimeNumber` has two constructors:
-    * `PrimeNumber()`: construct a `PrimeNumber` where the value is 1.
+    * `PrimeNumber()`: construct a `PrimeNumber` where the value is **1**.
     * `PrimeNumber(int _value)`: construct a `PrimeNumber` where the value is `_value`.
 * The following function should be implementd:
     * `get()`: return the value of this `PrimeNumber`.
 * Overloading all the following operators are required:
     * `++`: return the next larger prime number. 
     * `--`: return the next smaller prime number.
-:::warning
-If the `PrimeNumber` value equals to 2, `--` operator should return 1. In the testing data, the `PrimeNumber` won’t be less than 2.
-:::
+		* If the `PrimeNumber` value equals to 2, `--` operator should return 1.
 
 
 ## Input and Output
