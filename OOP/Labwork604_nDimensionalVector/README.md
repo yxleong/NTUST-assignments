@@ -24,10 +24,10 @@ Suppose there were two VecNfs: `v1(2,2)`, `v2(6,1)`. The following requirements 
 
 ## Sample Input / Output
 
-# Sample Input
+### Sample Input
 No inputs.
 
-# Sample Output
+### Sample Output
 ```
 ASSIGNMENT!!!
 3 2
