@@ -16,10 +16,10 @@ The program contains a class called `NumberGame` with the following member funct
 
 ## Sample Input / Output
 
-# Sample Input
+### Sample Input
 No inputs.
 
-# Sample Output
+### Sample Output
 ```
 1
 2
@@ -35,21 +35,21 @@ List `S` contains up to 50,000,000 numbers.
 main.cpp
 ```
 int main() {
-	NumberGame Game;
-	Game.SetInput(1234);
-	Game.ProcessInput();
-	Game.SetFileName("number.txt");
-	Game.LoadNumberList();
-	Game.PrintAllValid();
+    NumberGame Game;
+    Game.SetInput(1234);
+    Game.ProcessInput();
+    Game.SetFileName("number.txt");
+    Game.LoadNumberList();
+    Game.PrintAllValid();
 
-	Game.Reset();
-	cout << "\n";
-	Game.SetInput(2345);
-	Game.ProcessInput();
-	Game.SetFileName("number.txt");
-	Game.LoadNumberList();
-	Game.PrintAllValid();
-	system("pause");
+    Game.Reset();
+    cout << "\n";
+    Game.SetInput(2345);
+    Game.ProcessInput();
+    Game.SetFileName("number.txt");
+    Game.LoadNumberList();
+    Game.PrintAllValid();
+    system("pause");
 }
 ```
 
