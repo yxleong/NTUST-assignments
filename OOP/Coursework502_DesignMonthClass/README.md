@@ -1,4 +1,4 @@
-# Class Month
+# Design Month Class
 
 ## Problem Statement
 Define a class named `Month` to display the formatted month.
