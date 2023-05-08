@@ -1,6 +1,8 @@
 /*****************************************************************//**
  * File: main.cpp
- * Author: Leong Yah Xuan
+ * Author: 
+ 	Leong Yah Xuan
+	B11015042
  * Create Date: April 18, 2023
  * Update Date: April 18, 2023
  * Description: This C++ program creates canvas of a user-defined size, displays board using a 2D vector, and generates random positions for objects.
@@ -10,16 +12,15 @@
  File:   source.cpp
 
  Author:
-		 Áé½å¼s¡Aea5878158@gmail.com
+		 é¾è³¢å»£ï¼Œea5878158@gmail.com
  Modifier:
-		 ¿à¯§¦N¡Acheeryuchi@gmail.com
-		 ¶ÀªY¤ª¡Awindyhuang6@gmail.com
-		 ³¯«T¦t¡AJYCReports@gmail.com
-		 ªô¹Å¿³¡Atbcey74123@gmail.com
-		 B11015016, B11015042
+		 è³´ç¥å‰ï¼Œcheeryuchi@gmail.com
+		 é»ƒæ¬£äº‘ï¼Œwindyhuang6@gmail.com
+		 é™³ä¿Šå®‡ï¼ŒJYCReports@gmail.com
+		 é‚±å˜‰èˆˆï¼Œtbcey74123@gmail.com
  Comment:
-		 °ò¥»¿é¤J¤è¦V²¾°Ê¥\¯à¡Aw s a d ²¾°Ê¸}¦â¤W¤U¥ª¥k¡AªÅ¥Õ§ïÅÜ¸}¦â¯¸¥ß¤§¦aªO¦r¤¸¡A¨ìT¤W¥i¥H¼W¥[¸gÅç
-		 ESC¬OÂ÷¶}µe­±¡C¦P®É§ó·s¹Ïª©¤Wªº¸ê°T¡C
+		 åŸºæœ¬è¼¸å…¥æ–¹å‘ç§»å‹•åŠŸèƒ½ï¼Œw s a d ç§»å‹•è…³è‰²ä¸Šä¸‹å·¦å³ï¼Œç©ºç™½æ”¹è®Šè…³è‰²ç«™ç«‹ä¹‹åœ°æ¿å­—å…ƒï¼Œåˆ°Tä¸Šå¯ä»¥å¢åŠ ç¶“é©—
+		 ESCæ˜¯é›¢é–‹ç•«é¢ã€‚åŒæ™‚æ›´æ–°åœ–ç‰ˆä¸Šçš„è³‡è¨Šã€‚
 
  ************************************************************************/
 
@@ -92,10 +93,10 @@ const double gTimeLog = 0.033;
 // Distance
 const int gDistance = 4;
 
-// ¥Î¨ÓÀx¦sª©­±¸ê®Æ
+// ç”¨ä¾†å„²å­˜ç‰ˆé¢è³‡æ–™
 char** gBoard;
 
-// ©w¸q¤»ºØ¿é¤J«ü¥O»P¹ïÀ³°}¦Cindex
+// å®šç¾©å…­ç¨®è¼¸å…¥æŒ‡ä»¤èˆ‡å°æ‡‰é™£åˆ—index
 enum ValidInput
 {
 	EW = 0,
@@ -111,16 +112,16 @@ enum ValidInput
 Creature gCreature;
 
 // function declare
-// °»´ú¿é¤Jª¬ºA
+// åµæ¸¬è¼¸å…¥ç‹€æ…‹
 void keyUpdate(bool key[]);
-// ªì©l¤Æª©­±
+// åˆå§‹åŒ–ç‰ˆé¢
 void setupBoard(int rowN, int colN);
-// ¿é¥Xª©­±
+// è¼¸å‡ºç‰ˆé¢
 void draw(void);
-// ¿é¥X»¡©ú¸ê°T
+// è¼¸å‡ºèªªæ˜è³‡è¨Š
 void drawInfo(void);
 
-// µ{¦¡¥DÅX°Ê¨ç¦¡
+// ç¨‹å¼ä¸»é©…å‹•å‡½å¼
 void update(bool key[]);
 
 // Create vector of trigger pointer for further managenent and manipulation
@@ -135,7 +136,7 @@ int main(int argc, char** argv)
 {
 	srand(time(NULL));
 
-	// ¥Î¨ÓºŞ²zÁä½L¿é¤Jª¬ºAªº°}¦C
+	// ç”¨ä¾†ç®¡ç†éµç›¤è¼¸å…¥ç‹€æ…‹çš„é™£åˆ—
 	bool gKeyState[6];
 	for (int i = 0; i < 6; i++) {
 		gKeyState[i] = false;
@@ -193,7 +194,7 @@ int main(int argc, char** argv)
 
 //******************************************************************
 //
-// * °»´ú¿é¤Jª¬ºA
+// * åµæ¸¬è¼¸å…¥ç‹€æ…‹
 //==================================================================
 void keyUpdate(bool key[])
 //==================================================================
@@ -228,7 +229,7 @@ void keyUpdate(bool key[])
 
 //******************************************************************
 //
-// * §PÂ_¦ì¸m¬O§_¬°ªÅ
+// * åˆ¤æ–·ä½ç½®æ˜¯å¦ç‚ºç©º
 //==================================================================
 bool isPositionValid(Position& pos)
 //==================================================================
@@ -252,7 +253,7 @@ float clip(float n, float minimun, float maximum)
 
 //******************************************************************
 //
-// * §Q¥Î call-by-referce ±N­pºâ±o¨ìªº¤è¦V¦^¶Ç
+// * åˆ©ç”¨ call-by-referce å°‡è¨ˆç®—å¾—åˆ°çš„æ–¹å‘å›å‚³
 //==================================================================
 bool canSee(Position cPos, Position hPos, Position& dir)
 //==================================================================
@@ -414,10 +415,10 @@ void drawInfo(void)
 void update(bool key[])
 //==================================================================
 {
-	// ²M°£ª©­±
+	// æ¸…é™¤ç‰ˆé¢
 	system("CLS");
 
-	// ¬O§_¦³input
+	// æ˜¯å¦æœ‰input
 	bool hasInput = false;
 	if (key[ValidInput::EW]) {
 		gHero.move(0, -1);
