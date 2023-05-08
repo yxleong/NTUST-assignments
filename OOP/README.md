@@ -39,6 +39,10 @@ This repository contains my code for the Object-oriented Programming course at t
 - 7-3 [Seven-segment Display](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework703_SevenSegmentDisplay)
 - 7-7 [Large Integer Operation](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework707_LargeIntegerOperation)
 
+## Dungeon Practice
+- 01 [FlowControl & BasicIO]()
+- 02 
+
 ## Course Objectives
 - Thorough understanding of C++ programming language.
 - Capable for effectively learning advanced programming skills.
