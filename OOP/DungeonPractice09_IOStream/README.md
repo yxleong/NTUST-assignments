@@ -1,6 +1,6 @@
 # IO Stream
 
-This dungeon project demonstrates the implementation of IO Stream in C++. The program is intended to read and write data from and to a file. It also implements operator overloading on the `Position` class, allowing it to be easily read and written from and to a file.
+This dungeon project demonstrates the implementation of IO Stream. The program is intended to read and write data from and to a file. It also implements operator overloading on the `Position` class, allowing it to be easily read and written from and to a file.
 
 ## Function Implementation
 The following features are included in the program:
