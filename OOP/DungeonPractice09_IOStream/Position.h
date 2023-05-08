@@ -1,7 +1,7 @@
 /*****************************************************************//**
  * File: main.cpp
  * Author:
- *	LEONG YAH XUAN
+ *	Leong Yah Xuan
  *	B11015042
  * Create Date: May 6, 2023
  * Update Date: May 6, 2023
