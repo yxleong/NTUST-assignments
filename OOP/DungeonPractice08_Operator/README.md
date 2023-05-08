@@ -1,7 +1,7 @@
 # Operator
 This dungeon program implements operator overloading in the `Position` class. 
 
-## Code Implementation
+## Function Implementation
 The required implementation includes the following overloaded operators:
 * Position + Position 
 * Position += Position 
