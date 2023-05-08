@@ -2,7 +2,7 @@
 
 This dungeon project demonstrates the implementation of IO Stream in C++. The program is intended to read and write data from and to a file. It also implements operator overloading on the `Position` class, allowing it to be easily read and written from and to a file.
 
-## Code Implementation
+## Function Implementation
 The following features are included in the program:
 * **Archive Reading**: Read data from a file and store it in variables.
 * **Canvas Size**: Read the canvas size from a file.
