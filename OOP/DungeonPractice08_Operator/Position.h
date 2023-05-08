@@ -1,7 +1,7 @@
 /*****************************************************************//**
  * File: Position.h
  * Author:
- *	LEONG YAH XUAN
+ *	Leong Yah Xuan
  *	B11015042
  * Create Date: April 25, 2023
  * Update Date: April 25, 2023
