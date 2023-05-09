@@ -27,7 +27,7 @@ Didier
 9800
 ```
 
-## Notes
+## Note
 * The input file scores.txt is provided.
 * This problem requires defining a `getHighScores` function that takes two parameters: an array of strings and an array of integers. The function reads all the data in the input file and finds the top three players' names and scores. Call this function in `main` and output the top three players and scores.
 * The problem does not consider ties.
