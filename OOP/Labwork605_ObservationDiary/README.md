@@ -73,7 +73,7 @@ UA's leg appeared (0 -> 6).
 UA's wing appeared (0 -> 4).
 ```
 
-## Other Notes:
+## Other Notes
 * Suppose there was a Creature `c` named `sample` that has set the current date to "00". (`Diary::NewDay("00")`)
 * Record in the log each time the **operation** is called 
 * Default value for the number of body parts is 0
@@ -109,5 +109,3 @@ int main() {
 * Medium, multiple programming grammars and structures are required.
 * Solving time: 50 minutes
 * Contributors: 陳宥潤, 鄭永泰, 范茗翔
-
-
