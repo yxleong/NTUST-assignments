@@ -5,19 +5,19 @@
  *	B11015042
  * Create Date: March 14, 2023
  * Update Date: March 14, 2023
- * Description: This C++ program
+ * Description: This C++ program implements wall drawing function.
  *********************************************************************/
 
  /************************************************************************
  File:   Source.cpp
 
  Author:
-		 Áé½å¼s¡Aea5878158@gmail.com
+		 é¾è³¢å»£ï¼Œea5878158@gmail.com
  Modifier:
-		 ¿à¯§¦N¡Acheeryuchi@gmail.com
-		 ÅU°ßÄ£¡Aguweiyao867@gmail.com
-		 ³¯«T¦t¡AJYCReports@gmail.com
-		 ªô¹Å¿³¡Atbcey74123@gmail.com
+		 è³´ç¥å‰ï¼Œcheeryuchi@gmail.com
+		 é¡§å”¯è€€ï¼Œguweiyao867@gmail.com
+		 é™³ä¿Šå®‡ï¼ŒJYCReports@gmail.com
+		 é‚±å˜‰èˆˆï¼Œtbcey74123@gmail.com
  Comment:
 		 Draw and print out the canvas.
 
