@@ -40,7 +40,7 @@ dimensions inconsistent
 0
 ```
 
-## Other Notes:
+## Other Notes
 
 main.cpp
 ```
@@ -85,5 +85,3 @@ int main()
 * Easy, only basic programming language syntax and structure are needed.
 * Solving time: 40 minutes
 * Contributors: 陳泳峰, 陳宥潤, 范茗翔
-
-
