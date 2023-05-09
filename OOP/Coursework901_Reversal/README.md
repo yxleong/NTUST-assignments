@@ -7,8 +7,6 @@ For example, "stun" reverses to make the word "nuts" but is only four letters lo
 
 Find the longest such word.
 
-## Sample Input / Output
-
 ### Input
 The input should be the words in text file.
 
