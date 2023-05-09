@@ -15,7 +15,7 @@ Define a class named `PrimeNumber` that stores a prime number.
 		* If the `PrimeNumber` value equals to 2, `--` operator should return 1.
 
 
-## Input and Output
+## Sample Input/Output
 
 ### Input
 No inputs.
@@ -28,7 +28,7 @@ No inputs.
 17
 ```
 
-## Other Notes:
+## Note
 main.cpp
 ```
 int main()
