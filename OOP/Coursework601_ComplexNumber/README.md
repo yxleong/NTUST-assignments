@@ -27,16 +27,15 @@ The class should also overload the following operators:
 * `>>`: Get the value of a complex number from the input stream with the format `x = realValue + imaginaryValue*i`.
 * `<<`: Send complex numbers to the output stream with the format `realValue + imaginaryValue*i`.
 
-## Input and Output
+## Sample Input/Output
 The input is a complex number in the format `x = realValue + imaginaryValue*i`, where `x` is the variable name of the complex number. The output should contain the result of executing the program with the given `main` function.
 
-### Sample Input/Output
-#### Input
+### Input
 ```
 x = 3 + 4*i
 y = 5 + 6*i
 ```
-#### Output
+### Output
 ```
 x =  0 + 0*i
 y = 3 + 0*i
@@ -71,7 +70,7 @@ z = x - y = 2 + -3*i
 z = x / y = 3.5
 ```
 
-## Other Notes:
+## Note
 main.cpp
 ```
 #include"Complex.h"
