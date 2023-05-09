@@ -28,7 +28,7 @@ Copy point:
 -3 -1
 ```
 
-### Note
+## Note
 main.cpp
 ```cpp
 #include<iostream>
