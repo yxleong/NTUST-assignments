@@ -29,7 +29,7 @@ No inputs.
 24
 ```
 
-## Other Notes:
+## Other Notes
 List `S` contains up to 50,000,000 numbers.
 
 main.cpp
