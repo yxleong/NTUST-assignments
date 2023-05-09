@@ -1,5 +1,5 @@
 # Arrays
-This C++ program implements wall drawing function which allows users to draw a dungeon wall using two specified symbols for the wall and open space. The dungeon size is 10 columns and 20 rows, and the map information is stored in a char array.
+This dungeon program implements wall drawing function which allows users to draw a dungeon wall using two specified symbols for the wall and open space. The dungeon size is 10 columns and 20 rows, and the map information is stored in a char array.
 
 ## Function Implementation
 * Prompt user to enter symbols for wall and open space.
