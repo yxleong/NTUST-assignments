@@ -36,7 +36,6 @@ aaa abc
 abc aaa
 acm bcm
 0 0
-
 ```
 
 ### Output
@@ -49,7 +48,6 @@ yes
 yes
 no
 yes
-
 ```
 
 ## Additional Information
