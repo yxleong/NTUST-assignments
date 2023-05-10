@@ -19,7 +19,20 @@ You should implement the following functions:
 
 ### Input
 No inputs for this exercise.
+
+### Output
+The result of executing your program with the given main function.
 ```
+100
+100
+0
+50
+50
+```
+
+## Note
+main.cpp
+```cpp
 int main() {
 	BankAccount bankAccount1(200), bankAccount2, bankAccount3(-100);
 	cout << BankAccount::getAllMoneyInBank() << endl;
@@ -31,16 +44,6 @@ int main() {
 	cout << BankAccount::getAllMoneyInBank() << endl;
 	return 0;
 }
-```
-
-### Output
-The result of executing your program with the given main function.
-```
-100
-100
-0
-50
-50
 ```
 
 ## Additional Information

@@ -33,7 +33,7 @@ No inputs.
 List `S` contains up to 50,000,000 numbers.
 
 main.cpp
-```
+```cpp
 int main() {
     NumberGame Game;
     Game.SetInput(1234);

@@ -14,7 +14,7 @@ Please implement a class named `Point` to store and manipulate the position of a
 
 ### Input
 The `main()` function in your submission will be replaced when judging. You can use the following `main()` function to test your program. This exercise does not have an input.
-```
+```cpp
 int main(void) {
     Point point;
 

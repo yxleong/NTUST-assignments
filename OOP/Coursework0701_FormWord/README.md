@@ -114,8 +114,8 @@ ws
 ## Note
 The comparison is not case-sensitive, but the output should keep the case of the original letters.
 
-You can use the `main()` function to test your program.
-```
+main.cpp
+```cpp
 int main()
 {
 	Form form1;

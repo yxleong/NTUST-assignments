@@ -117,8 +117,8 @@ If the input string cannot be transformed into an integer, output nothing.
 ## Note
 You should not use the `atoi` function or the `stringstream` class to do the conversion.
 
-The `main()` function in your program will be replaced during the judging process. 
-```
+main.cpp
+```cpp
 int main() {
 	string beTrans;
 

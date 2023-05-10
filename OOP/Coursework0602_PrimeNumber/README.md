@@ -30,7 +30,7 @@ No inputs.
 
 ## Note
 main.cpp
-```
+```cpp
 int main()
 {	
 	PrimeNumber p1, p2(13);	

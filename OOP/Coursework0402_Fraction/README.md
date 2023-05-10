@@ -5,7 +5,19 @@ Define a class for a type called **Fraction**. This class is used to represent a
 
 ### Input
 No input.
+
+### Output
+As following sample.
 ```
+2
+2
+0.333333
+1/3
+```
+
+## Note
+main.cpp
+```cpp
 int main()
 {
 	Fraction f1, f2;
@@ -20,15 +32,6 @@ int main()
 	f2.outputReducedFraction();
 	return 0;
 }
-```
-
-### Output
-As following sample.
-```
-2
-2
-0.333333
-1/3
 ```
 
 ## Additional Information

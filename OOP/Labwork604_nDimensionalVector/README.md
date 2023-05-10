@@ -43,7 +43,7 @@ dimensions inconsistent
 ## Other Notes
 
 main.cpp
-```
+```cpp
 void doNothing(VecNf tar) { return; }
 
 int main()

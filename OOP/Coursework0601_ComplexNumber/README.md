@@ -72,7 +72,7 @@ z = x / y = 3.5
 
 ## Note
 main.cpp
-```
+```cpp
 #include"Complex.h"
 int main()
 {

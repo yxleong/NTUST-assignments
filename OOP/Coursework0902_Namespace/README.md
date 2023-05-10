@@ -30,7 +30,7 @@ Your username is abcdefgh and your password is: aaaaaaaaaa1
 
 ## Note
 main.cpp
-```
+```cpp
 int main()
 {
   inputUserName();
@@ -42,7 +42,7 @@ int main()
 }
 ```
 user.cpp
-```
+```cpp
 namespace Authenticate
 {
   void inputUserName()
@@ -61,7 +61,7 @@ namespace Authenticate
 }
 ```
 password.cpp
-```
+```cpp
 namespace Authenticate
 {
   void inputPassword()
