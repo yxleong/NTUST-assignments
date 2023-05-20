@@ -9,7 +9,7 @@ Similarly, define a class for `File` that is derived from `Document` and include
 
 Finally, create several sample objects of type `Email` and `File` in your `main` method. Test your objects by passing them to the following subroutine that returns true if the object contains the specified keyword in the text property.
 
-For example, you might test to see if an email message contains the text "c++" with the call `ContainsKeyword(emailObj, "c++")`;
+For example, you might test to see if an email message contains the text "c++" with the call `ContainsKeyword(emailObj, "c++")`.
 
 ```cpp
 bool ContainsKeyword(const Document& docObject, string keyword)
