@@ -20,14 +20,13 @@ bool ContainsKeyword(const Document& docObject, string keyword)
 }
 ```
 
-
-## Input:
-No Input for this problem, but the different main function will be changed to test your code.
+## Input
+No input for this problem, but the different main function will be changed to test your code.
 ```
 main.in
 ```
 
-## Output:
+## Output
 Depends on the output of testing main function.
 ```
 sample.out
