@@ -22,4 +22,4 @@ The following hostile creatures can be encountered in the dungeon:
     - Twice detect
 
 ## How to Play
-To use the program, simply run it and the creatures will be displayed on the dungeon. Observe the creatures and their positions within the dungeon. Press W, A, S, or D to move Hero to interact with the creatures.
+To use the program, simply run it and the creatures will be displayed on the dungeon. Observe the creatures and their positions within the dungeon. Press `W`, `A`, `S`, or `D` to move Hero to interact with the creatures.
