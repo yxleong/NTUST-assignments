@@ -2,7 +2,7 @@
  * File: Position.h
  * Author:
  *	Leong Yah Xuan
- *	B11015042
+ *	Tien Qingian
  * Create Date: April 25, 2023
  * Update Date: April 25, 2023
  * Description: This C++ program implements operator overloading for element position.

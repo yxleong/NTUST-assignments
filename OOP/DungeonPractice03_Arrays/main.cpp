@@ -2,9 +2,9 @@
  * File: main.cpp
  * Author:
  *	Leong Yah Xuan
- *	B11015042
+ *	Tien Qingian
  * Create Date: March 14, 2023
- * Update Date: March 14, 2023
+ * Update Date: May 26, 2023
  * Description: This C++ program implements wall drawing function.
  *********************************************************************/
 
@@ -72,12 +72,12 @@ void makeBoard()
 	/*Please implement your code here*/
 
 	// Use char array to store map information
-	char wallSymbol = 0, blank_symbol = 0;
+	char wallSymbol = 0, blankSymbol = 0;
 	// Enter two symbols for wall and space
 	std::cout << "Enter symbol for wall:";
 	std::cin >> wallSymbol;
 	std::cout << "Enter symbol for blank:";
-	std::cin >> blank_symbol;
+	std::cin >> blankSymbol;
 
 	for (int y = 0; y < DUNGEN_ROW; y++) {
 		for (int x = 0; x < DUNGEN_COL; x++) {
@@ -86,7 +86,7 @@ void makeBoard()
 				dungenMap[y][x] = wallSymbol;
 			}
 			else {
-				dungenMap[y][x] = blank_symbol;
+				dungenMap[y][x] = blankSymbol;
 			}
 		}
 	}

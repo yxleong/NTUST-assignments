@@ -2,7 +2,7 @@
  * File: main.cpp
  * Author:
  *	Leong Yah Xuan
- *	B11015042
+ *	Tien Qingian
  * Create Date: April 11, 2023
  * Update Date: April 11, 2023
  * Description: This C++ program implements Hero movement by string input.
@@ -12,15 +12,15 @@
  File:   source.cpp
 
  Author:
-		 Áé½å¼s¡Aea5878158@gmail.com
+		 ï¿½ï¿½ï¿½sï¿½Aea5878158@gmail.com
  Modifier:
-		 ¿à¯§¦N¡Acheeryuchi@gmail.com
-		 ¶ÀªY¤ª¡Awindyhuang6@gmail.com
-		 ³¯«T¦t¡AJYCReports@gmail.com
-		 ªô¹Å¿³¡Atbcey74123@gmail.com
+		 ï¿½à¯§ï¿½Nï¿½Acheeryuchi@gmail.com
+		 ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Awindyhuang6@gmail.com
+		 ï¿½ï¿½ï¿½Tï¿½tï¿½AJYCReports@gmail.com
+		 ï¿½ï¿½ï¿½Å¿ï¿½ï¿½Atbcey74123@gmail.com
  Comment:
-		 °ò¥»¿é¤J¤è¦V²¾°Ê¥\¯à¡Aw s a d ²¾°Ê¸}¦â¤W¤U¥ª¥k¡AªÅ¥Õ§ïÅÜ¸}¦â¯¸¥ß¤§¦aªO¦r¤¸¡A¨ìT¤W¥i¥H¼W¥[¸gÅç
-		 ESC¬OÂ÷¶}µe­±¡C¦P®É§ó·s¹Ïª©¤Wªº¸ê°T¡C
+		 ï¿½ò¥»¿ï¿½Jï¿½ï¿½Vï¿½ï¿½ï¿½Ê¥\ï¿½ï¿½Aw s a d ï¿½ï¿½ï¿½Ê¸}ï¿½ï¿½Wï¿½Uï¿½ï¿½ï¿½kï¿½Aï¿½Å¥Õ§ï¿½ï¿½Ü¸}ï¿½â¯¸ï¿½ß¤ï¿½ï¿½aï¿½Oï¿½rï¿½ï¿½ï¿½Aï¿½ï¿½Tï¿½Wï¿½iï¿½Hï¿½Wï¿½[ï¿½gï¿½ï¿½
+		 ESCï¿½Oï¿½ï¿½ï¿½}ï¿½eï¿½ï¿½ï¿½Cï¿½Pï¿½É§ï¿½sï¿½Ïªï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½Tï¿½C
 
  ************************************************************************/
 
@@ -91,10 +91,10 @@ const double gTimeLog = 0.033;
 // Distance
 const int gDistance = 4;
 
-// ¥Î¨ÓÀx¦sª©­±¸ê®Æ
+// ï¿½Î¨ï¿½ï¿½xï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 char gBoard[GHEIGHT][GWIDTH];
 
-// ©w¸q¤»ºØ¿é¤J«ü¥O»P¹ïÀ³°}¦Cindex
+// ï¿½wï¿½qï¿½ï¿½ï¿½Ø¿ï¿½Jï¿½ï¿½ï¿½Oï¿½Pï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½Cindex
 enum ValidInput
 {
 	EW = 0,
@@ -111,16 +111,16 @@ enum ValidInput
 Creature gCreature;
 
 // function declare
-// °»´ú¿é¤Jª¬ºA
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½A
 void keyUpdate(bool key[]);
-// ªì©l¤Æª©­±
+// ï¿½ï¿½lï¿½Æªï¿½ï¿½ï¿½
 void setupBoard();
-// ¿é¥Xª©­±
+// ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½
 void draw(void);
-// ¿é¥X»¡©ú¸ê°T
+// ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½T
 void drawInfo(void);
 
-// µ{¦¡¥DÅX°Ê¨ç¦¡
+// ï¿½{ï¿½ï¿½ï¿½Dï¿½Xï¿½Ê¨ç¦¡
 void update(bool key[]);
 
 Trigger gTrigger(5, 5, 10);
@@ -130,7 +130,7 @@ int main(int argc, char** argv)
 {
 	srand(time(NULL));
 
-	// ¥Î¨ÓºÞ²zÁä½L¿é¤Jª¬ºAªº°}¦C
+	// ï¿½Î¨ÓºÞ²zï¿½ï¿½Lï¿½ï¿½Jï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½}ï¿½C
 	bool gKeyState[6];
 	for (int i = 0; i < 6; i++) {
 		gKeyState[i] = false;
@@ -172,7 +172,7 @@ int main(int argc, char** argv)
 
 //******************************************************************
 //
-// * °»´ú¿é¤Jª¬ºA
+// * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½A
 //==================================================================
 void keyUpdate(bool key[])
 //==================================================================
@@ -267,7 +267,7 @@ void keyUpdate(bool key[])
 
 //******************************************************************
 //
-// * §PÂ_¦ì¸m¬O§_¬°ªÅ
+// * ï¿½Pï¿½_ï¿½ï¿½mï¿½Oï¿½_ï¿½ï¿½ï¿½ï¿½
 //==================================================================
 bool isPositionValid(Position& pos)
 //==================================================================
@@ -291,7 +291,7 @@ float clip(float n, float minimun, float maximum)
 
 //******************************************************************
 //
-// * §Q¥Î call-by-referce ±N­pºâ±o¨ìªº¤è¦V¦^¶Ç
+// * ï¿½Qï¿½ï¿½ call-by-referce ï¿½Nï¿½pï¿½ï¿½oï¿½ìªºï¿½ï¿½Vï¿½^ï¿½ï¿½
 //==================================================================
 bool canSee(Position cPos, Position hPos, Position& dir)
 //==================================================================
@@ -389,10 +389,10 @@ void drawInfo(void)
 void update(bool key[])
 //==================================================================
 {
-	// ²M°£ª©­±
+	// ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	system("CLS");
 
-	// ¬O§_¦³input
+	// ï¿½Oï¿½_ï¿½ï¿½input
 	bool hasInput = false;
 	if (key[ValidInput::EW]) {
 		gHero.move(0, -1);

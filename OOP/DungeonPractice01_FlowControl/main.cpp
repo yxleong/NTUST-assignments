@@ -2,7 +2,7 @@
  * File: main.cpp
  * Author:
  *	Leong Yah Xuan
- *	B11015042
+ *	Tien Qingian
  * Create Date: February 21, 2023
  * Update Date: February 21, 2023
  * Description: This C++ program implements basic user input control.
@@ -12,10 +12,10 @@
  File:   Source.cpp
 
  Author:
-		 Áé½å¼s¡Aea5878158@gmail.com
+		 ï¿½ï¿½ï¿½sï¿½Aea5878158@gmail.com
  Modifier:
-		 ¿à¯§¦N¡Acheeryuchi@gmail.com
-		 ³¯«T¦t¡AJYCReports@gmail.com
+		 ï¿½à¯§ï¿½Nï¿½Acheeryuchi@gmail.com
+		 ï¿½ï¿½ï¿½Tï¿½tï¿½AJYCReports@gmail.com
  Comment:
 		 Use clock to count time (And output) for following input tasks
 
@@ -40,7 +40,7 @@ int main(int argc, char** argv)
 
 	while (secsPass < GAME_DURATION) {
 		// Continuously output messages using a loop
-		// output a message every 1 (¡À0.05) seconds, output 15 seconds
+		// output a message every 1 (ï¿½ï¿½0.05) seconds, output 15 seconds
 
 		endT = clock();
 

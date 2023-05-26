@@ -2,7 +2,7 @@
  * File: Hero.h
  * Author:
  * 	Leong Yah Xuan
- * 	B11015042
+ * 	Tien Qingian
  * Create Date: March 28, 2023
  * Update Date: March 28, 2023
  * Description: This C++ program implements some functions of Hero.

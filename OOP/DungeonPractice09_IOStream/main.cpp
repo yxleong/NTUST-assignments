@@ -2,7 +2,7 @@
  * File: main.cpp
  * Author:
  *	Leong Yah Xuan
- *	B11015042
+ *	Tien Qingian
  * Create Date: May 6, 2023
  * Update Date: May 8, 2023
  * Description: This C++ program demonstrates the implementation of IO Stream.

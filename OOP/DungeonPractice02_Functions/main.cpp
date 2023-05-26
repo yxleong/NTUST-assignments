@@ -2,7 +2,7 @@
  * File: main.cpp
  * Author:
  *	Leong Yah Xuan
- *	B11015042
+ *	Tien Qingian
  * Create Date: March 7, 2023
  * Update Date: March 7, 2023
  * Description: This C++ program implements character movement.
@@ -12,7 +12,7 @@
  File:   Source.cpp
 
  Author:
-		 ªô¹Å¿³¡Atbcey74123@gmail.com
+		 ï¿½ï¿½ï¿½Å¿ï¿½ï¿½Atbcey74123@gmail.com
  Comment:
 		 Output character position after W,A,S,D input.
 		 Output invalid if destination out of boundary.

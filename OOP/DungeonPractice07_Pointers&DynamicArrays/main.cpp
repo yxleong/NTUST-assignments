@@ -2,7 +2,7 @@
  * File: main.cpp
  * Author: 
  	Leong Yah Xuan
-	B11015042
+	Tien Qingian
  * Create Date: April 18, 2023
  * Update Date: April 18, 2023
  * Description: This C++ program creates canvas of a user-defined size, displays board using a 2D vector, and generates random positions for objects.
