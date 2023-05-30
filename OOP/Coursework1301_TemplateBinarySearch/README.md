@@ -3,8 +3,11 @@
 ## Problem Statement
 Please implement Binary Search using template, and provide both iterative and recursive versions.
 
-The **iterative** version of the function should follow this format: `ItrBinarySearch(const T a[], int first , int last, T key, bool &found, int &location)`
-The **recursive** version of the function should follow this format: `RecBinarySearch (const T a[], int first, int last, T key, bool &found, int &location)`
+The **iterative** version of the function should follow this format: 
+`ItrBinarySearch(const T a[], int first , int last, T key, bool &found, int &location)`
+
+The **recursive** version of the function should follow this format:
+`RecBinarySearch (const T a[], int first, int last, T key, bool &found, int &location)`
 
 * `a[]` is the list that will be searched.
 * `first` is the starting position.
