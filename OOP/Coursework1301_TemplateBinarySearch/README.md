@@ -111,7 +111,7 @@ Testing Template Recursive Binary Search
 Both iterative and recursive versions should support `int`, `string` and `double` types.
 
 main.cpp
-```main.cpp
+```cpp
 #include "Template.h"
 int main(){
     const int ARRAY_SIZE = 8;
