@@ -1,5 +1,5 @@
 /*****************************************************************//**
- * File: Potion.cpp
+* File: Potion.cpp
 * Author:
 *	Leong Yah Xuan
 *	Tien Qingian

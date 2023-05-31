@@ -1,5 +1,5 @@
 /*****************************************************************//**
- * File: Position.cpp
+* File: Position.cpp
 * Author:
 *	Leong Yah Xuan
 *	Tien Qingian
