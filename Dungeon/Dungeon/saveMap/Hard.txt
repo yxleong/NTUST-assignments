@@ -1,0 +1,26 @@
+15 15
+OOOOOOOOOOOOOOO
+O            OO
+O             O
+OO O OOOO OOO O
+O  O   O     OO
+O   O O O O OOO
+O  O   O O    O
+OO OO O   O OOO
+O      O O   OO
+OOOOO  OOO OOOO
+O  O          O
+O   OOO OOO OOO
+O  O          O
+O  O          O
+OOOOOOOOOOOOOOO
+
+5 12 100 1 0 15 10
+3
+B 5 5
+W 5 8
+G 7 2
+3
+T 5 10
+) 12 10
+& 11 10

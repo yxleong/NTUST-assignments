@@ -1,0 +1,23 @@
+12 12
+OOOOOOOOOOOO
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+O          O
+OOOOOOOOOOOO
+
+2 2 100 1 0 15 10
+3
+B 1 6
+W 4 3
+G 2 3
+3
+T 3 10
+) 6 1
+& 9 7
