@@ -1,4 +1,4 @@
-# Dungeon Practice 13
+# Exception Handling
 This dungeon project is to implement exception handling using **try**, **throw**, and **catch**.
 
 ## Function Implementation
