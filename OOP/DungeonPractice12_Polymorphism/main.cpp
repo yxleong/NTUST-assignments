@@ -5,9 +5,7 @@
 *	Tien Qingian
 * Create Date: May 20, 2023
 * Update Date: May 27, 2023
-* Description: This C++ program is to implement inherit different creatures
-*				under the original Creature by using Creature* vector management
-*				with different different symbols and with different characteristics
+* Description: This C++ program is to implement an Item class and demonstrating its polymorphic behavior in dungeon game.
 *********************************************************************/
 #include "main.h"
 #include "Object.h"
