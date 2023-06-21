@@ -38,6 +38,10 @@ This repository contains my code for the Object-oriented Programming course at t
 - 7-2 [Array to Integer](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework702_ArrayToInteger)
 - 7-3 [Seven-segment Display](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework703_SevenSegmentDisplay)
 - 7-7 [Large Integer Operation](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework707_LargeIntegerOperation)
+- 8-1 [Design Polynomial Class](OOP/Coursework0801_DesignPolynomialClass)
+
+
+
 
 ## Dungeon Practice
 - 01 [FlowControl & BasicIO]()
