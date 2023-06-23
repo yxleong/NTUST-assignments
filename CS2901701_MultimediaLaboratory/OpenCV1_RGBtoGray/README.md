@@ -4,13 +4,10 @@ Convert image from RGB to Gray using formula
 `Gray = 0.299 * Red + 0.587 * Green + 0.114 * Blue`
 
 ## Source
-lenna RGB
-![](https://hackmd.io/_uploads/ByRPo-Xu2.png)
+![lenna.jpg](https://github.com/yxleong/NTUST-assignments/blob/main/CS2901701_MultimediaLaboratory/OpenCV1_RGBtoGray/lenna.jpg)
 
 ## Output
-lenna GRAY
-![](https://hackmd.io/_uploads/BkvtoZmO3.png)
-
+![lenna_converted.png](https://github.com/yxleong/NTUST-assignments/blob/main/CS2901701_MultimediaLaboratory/OpenCV1_RGBtoGray/lenna_converted.png)
 
 ## Note
 * Mat 基本應用及介紹
