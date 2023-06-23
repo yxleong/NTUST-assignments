@@ -3,13 +3,13 @@
 Implement edge detection of Sobel.
 * Threshold = 180
 
-## lenna
+## Lenna
 ### Source
 ![src](https://github.com/yxleong/NTUST-assignments/blob/main/CS2901701_MultimediaLaboratory/OpenCV6_EdgeDetection/lenna.jpg)
 ### Output
 ![target](https://github.com/yxleong/NTUST-assignments/blob/main/CS2901701_MultimediaLaboratory/OpenCV6_EdgeDetection/lennaResult.png)
 
-## pikachu
+## Pikachu
 ### Source
 ![src](https://github.com/yxleong/NTUST-assignments/blob/main/CS2901701_MultimediaLaboratory/OpenCV6_EdgeDetection/pikachu.png)
 ### Output
