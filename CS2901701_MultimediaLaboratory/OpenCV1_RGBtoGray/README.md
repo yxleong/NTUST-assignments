@@ -23,7 +23,7 @@ Convert image from RGB to Gray using formula
 * Color Image 介紹
     * (B, G, R) -> (0 ~ 255)
     * 讀取圖片
-      ```
+      ```cpp
       Mat cv::imread	( const String & filename,
                         int 	         flags = IMREAD_COLOR 
                       )
