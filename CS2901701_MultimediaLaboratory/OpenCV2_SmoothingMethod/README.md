@@ -35,7 +35,7 @@ Implement smoothing method, no need to handle image edges.
         | 10  |  ?  |  ?  | 10  |
         | 10  | 10  | 10  | 10  |
 
-    * 範例
+    * 示例
         | 10  | 10  | 10  |
         | --- |:---:|:---:|
         | 10  | 150 | 200 |
