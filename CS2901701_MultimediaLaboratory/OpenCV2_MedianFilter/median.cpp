@@ -21,11 +21,13 @@ int main()
 	// Filling your code here
 
 	int padSize = KERNEL_SIZE / 2; // for frame
-
+	
+	// no dealing with around
 	for (int i = padSize; i < src.rows - padSize; i++)
 	{
 		for (int j = padSize; j < src.cols - padSize; j++)
 		{
+			// to get the value of 3x3 kernel
 			Mat kernel = (Mat_<uchar>(KERNEL_SIZE, KERNEL_SIZE) <<
 				src.at<uchar>(i - 1, j - 1), src.at<uchar>(i - 1, j), src.at<uchar>(i - 1, j + 1),
 				src.at<uchar>(i, j - 1), src.at<uchar>(i, j), src.at<uchar>(i, j + 1),
@@ -33,8 +35,8 @@ int main()
 
 			std::sort(kernel.begin<uchar>(), kernel.end<uchar>());
 
-			int median = KERNEL_SIZE * KERNEL_SIZE / 2;
-			dst.at<uchar>(i, j) = kernel.at<uchar>(median);
+			int medianIndex = KERNEL_SIZE * KERNEL_SIZE / 2;
+			dst.at<uchar>(i, j) = kernel.at<uchar>(medianIndex); // to get the median value
 		}
 	}
 
