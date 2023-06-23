@@ -1,6 +1,6 @@
-# RGB TO GRAY
+# RGB to GRAY
 ## Problem Statement
-Convert image from RGB to GRAY using formula below
+Convert image from RGB to Gray using formula
 `Gray = 0.299 * Red + 0.587 * Green + 0.114 * Blue`
 
 ## Source
