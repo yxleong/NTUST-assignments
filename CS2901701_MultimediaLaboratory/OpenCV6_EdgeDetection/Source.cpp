@@ -21,12 +21,12 @@ int main()
 	// Filling your code here
 
 	float kernelX[SIZE][SIZE] = { {-1, 0, 1},
-								  {-2, 0, 2},
-								  {-1, 0, 1} };
+					{-2, 0, 2},
+					{-1, 0, 1} };
 
 	float kernelY[SIZE][SIZE] = { {-1,-2,-1},
-								  { 0, 0, 0},
-								  { 1, 2, 1} };
+					{ 0, 0, 0},
+					{ 1, 2, 1} };
 
 	Mat gradX, gradY;
 	int padSize = SIZE / 2;
