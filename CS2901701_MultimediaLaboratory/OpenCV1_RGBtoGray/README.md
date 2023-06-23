@@ -23,6 +23,10 @@ Convert image from RGB to Gray using formula
 * Color Image 介紹
     * (B, G, R) -> (0 ~ 255)
     * 讀取圖片
-        ![](https://hackmd.io/_uploads/SJxC9bXdh.png)
+      ```
+      Mat cv::imread	( const String & filename,
+                        int 	         flags = IMREAD_COLOR 
+                      )
+      ```
         * filename: 檔案名稱，檔案必須放在專案同個資料夾
         * flags: 支援的色彩通道格式
