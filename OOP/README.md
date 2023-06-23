@@ -3,8 +3,8 @@ This repository contains my code for the Object-oriented Programming course at t
 
 ## Programming Assignment
 - 00-0 [Writing Hello World](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework000_WritingHelloWorld)
-- 01-1 [Compute the square root](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework101_ComputeSQRT)
-- 01-2 [Convert Seconds to Time Format](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework102_ComputeHMS)
+- 01-1 [Compute the square root](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework0101_ComputeSQRT)
+- 01-2 [Convert Seconds to Time Format](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework0102_ComputeHMS)
 - 01-3 [Pattern Output](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Labwork103_PatternOutput)
 - 01-4 [Input/Output](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Labwork104_InputOutput)
 - 01-5 [Compute Sphere Volume](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Labwork105_ComputeSphereVolume)
