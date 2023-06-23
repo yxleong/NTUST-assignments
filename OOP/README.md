@@ -53,11 +53,23 @@ This repository contains my code for the Object-oriented Programming course at t
 - 13-2 [Absolute Value](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework1302_AbsoluteValue)
 - 14-1 [ATM](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework1401_ATM)
 - 14-2 [School Inheritance](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework1402_InheritanceSchool)
+- 15-1 [Set Exercise](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework1501_SetExercise)
 - 15-2 [Library Database](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/Coursework1502_LibraryDatabase)
 
 ## Dungeon Practice
-- 01 [FlowControl & BasicIO]()
-- 02 
+- 01 [Flow Control & Basic IO](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice01_BasicIO)
+- 02 [Functions](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice02_Functions)
+- 03 [Arrays](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice03_Arrays)
+- 04 [Structures & Classes](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice04_Structures&Classes)
+- 05 [Constructors](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice05_Constructors)
+- 06 [Strings](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice06_Strings)
+- 07 [Pointers & Dynamic Arrays](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice07_Pointers&DynamicArrays)
+- 08 [Operator](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice08_Operator)
+- 09 [IO Stream](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice09_IOStream)
+- 10 [Recursive](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice10_Recursive)
+- 11 [Inheritance](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice11_Inheritance)
+- 12 [Polymorphism](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice12_Polymorphism)
+- 13 [Exception Handling](https://github.com/yxleong/NTUST-assignments/tree/main/OOP/DungeonPractice13_ExceptionHandling)
 
 ## Course Objectives
 - Thorough understanding of C++ programming language.
