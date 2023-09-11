@@ -6,3 +6,6 @@ This repository contains my code for the Data Structures course at the Departmen
 
 ## Course Objectives
 This course introduces fundamental data structures and their applications. Topics covered include arrays, linked lists, stacks, queues, trees, graphs, and sorting algorithms.
+
+## Teaching Materials and Bibliography
+- "Data Structures in C" by Reema Thareja
