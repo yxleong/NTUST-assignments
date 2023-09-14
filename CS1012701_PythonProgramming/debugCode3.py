@@ -9,7 +9,7 @@ def multiply_value(df, multiplier):
     df = df.copy()
     df["value"] = df["value"] * multiplier
     
-#multiplier_list = [1, 2, "3"]
+# multiplier_list = [1, 2, "3"]
 multiplier_list = [1, 2, 3]
 
 for mult in multiplier_list:
