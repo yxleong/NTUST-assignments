@@ -1,4 +1,4 @@
-# Exercise 2-1: Employee’s wage
+# Employee’s wage
 
 ## Problem statement
 
