@@ -8,7 +8,7 @@ Build a binary search tree according to two lists (infix and prefix/postfix), an
 - The second line will be the traversal way that the list is ordered now (prefix / postfix).
 - The third line will be the list that is in the traversal order (prefix / postfix).
 - The forth line will be the new traversal way you should turn the list into (postfix / prefix).
-- 
+
 ## Output
 - The first line should be the new list in the other traversal way.
 - The second line should be the new list in level order.
