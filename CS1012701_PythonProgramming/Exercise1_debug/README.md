@@ -27,5 +27,5 @@ multiplier_list = [1, 2, "3"]
 multiplier_list = [1, 2, 3]
 ```
 ### Reason
-A string is not acceptable as index of list
+A string is not acceptable as index of list.
 
