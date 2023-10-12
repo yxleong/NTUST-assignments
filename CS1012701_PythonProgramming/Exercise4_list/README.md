@@ -37,3 +37,16 @@ list1 = [1, 2, 3, 4, 5, 6]
 ```
 [1, 3, 6, 10, 15, 21]
 ```
+
+## Problem statement 4
+Given a list of integers, make a list by running through elements of the list by adding all elements greater and itself.
+```
+[2, 4, 6, 10, 1]
+```
+### Output
+- For 1st element 2 ->> these are greater (4+6+10) values and 2 itself so on adding becomes 22
+- For 2nd element 4 ->> greater elements are (6,10) and 4 itself, so on adding 20
+- likewise for all other elements
+```
+[22, 20, 10, 16, 23]
+```
