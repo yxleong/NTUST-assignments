@@ -17,4 +17,15 @@ for i in list1:
     sum += int(i)
     sum_list.append(sum)
 print(sum_list)
-    
+
+# Q4
+my_list = [2, 4, 6, 10, 1]
+out_list = []
+for i in my_list:
+    j = i + 1
+    sum = 0
+    for j in my_list:
+        if j >= i:
+            sum += j
+    out_list.append(sum)
+print(out_list)
