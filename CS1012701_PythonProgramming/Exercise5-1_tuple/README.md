@@ -33,7 +33,7 @@ t1 and t2 are not same
 ## Problem statement 3
 Join tuples if similar initial element
 
-While working with Python tuples, it sometimes is needed to perform concatenation of records from the similarity of initial element.
+While working with python tuples, it sometimes is needed to perform concatenation of records from the similarity of initial element.
 
 ```
 test_list = [(5,6), (5,7), (5,8), (6,10), (7,13)]

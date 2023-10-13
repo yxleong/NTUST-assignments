@@ -1,7 +1,7 @@
 # Dictionary
 
 ## Problem statement
-Replace words from Dictionary.
+Replace words from dictionary.
 
 Given string, replace it’s words from the look up dictionary.
 

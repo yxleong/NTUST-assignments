@@ -40,3 +40,18 @@ else:
 
 # Q3
 test_list = [(5,6), (5,7), (5,8), (6,10), (7,13)]
+new_list = []
+for i in test_list:
+    new_tupple = ()
+    flag = True
+    for k in new_list:
+        if(k[0] == i[0]):
+            flag = False
+            break
+    if(flag):
+        new_tupple += (i[0],)
+        for j in test_list:
+            if (j[0] == i[0]):
+                new_tupple += (j[1],)
+        new_list.append(new_tupple)
+print(new_list)
