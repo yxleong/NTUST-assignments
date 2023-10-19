@@ -9,3 +9,7 @@ for c in str1:
         if c == i or c == j:
             count.add(c)
 print("No of unique vowels:", len(count))
+# ---------------------------------------------------
+str1 = set("Practice problEms on Lists tUplE and DictiOnary")
+vowels = set('aeiouAEIOU')
+print("No of unique vowels:", len(str1 & vowels))
