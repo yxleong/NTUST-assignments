@@ -12,6 +12,8 @@ for s in str_list:
         out_str += s + " "
 print(out_str)
 # ---------------------------------------------------
+test_str = "Python best for AI"
+repl_dict = {"best":"is the best language", "AI":"Artificial Intelligence"}
 res = []
 for i in test_str.split():
     if i in repl_dict:
