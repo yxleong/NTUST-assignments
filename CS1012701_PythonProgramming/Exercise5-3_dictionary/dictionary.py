@@ -11,3 +11,11 @@ for s in str_list:
     if(flag):
         out_str += s + " "
 print(out_str)
+# ---------------------------------------------------
+res = []
+for i in test_str.split():
+    if i in repl_dict:
+        res.append(repl_dict[i])
+    else:
+        res.append(i)
+print(" ".join(res))
