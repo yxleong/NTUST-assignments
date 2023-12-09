@@ -15,6 +15,7 @@
      ;; double it by cons it twice to the result of dbl_atm on the rest of the list.
      (cons atom (cons atom (dbl_atm atom (cdr lst))))
     )
+   
     ;; If the first element is neither a list nor the target atom
     (else
      ;; cons it to the result of dbl_atm on the rest of the list
