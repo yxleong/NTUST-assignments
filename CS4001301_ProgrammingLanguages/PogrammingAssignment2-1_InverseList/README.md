@@ -12,7 +12,7 @@ Inverse List
 - `list2`
 
 #### output
-inverse of list2 + inverse of list1
+Inverse of list2 + inverse of list1
 
 ### Example
 ```
