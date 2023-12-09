@@ -1,0 +1,61 @@
+?- cousin(leo, dylan).
+true
+?- cousin(leo, rose).
+true
+?- cousin(leo, haru).
+true
+?- sister(leo, ronnie).
+true
+?- brother(ronnie, leo).
+true
+?- sibling(leo, ronnie).
+true
+?- sibling(ronnie, leo).
+true
+
+?- mother(annie, janny).
+true
+?- mother(annie, dylan).
+false
+
+?- father(richard, dylan).
+true
+?- father(joan, haru).
+false
+
+?- daughter(janny, leo).
+true
+?- daughter(leo, ronnie).
+false
+
+?- son(dylan, richard).
+true
+?- son(joan, haru).
+false
+
+?- child(joan, mel).
+true
+?- child(leo, ronnie).
+false
+
+?- sister(annie, joan).
+false
+
+?- brother(joan, haru).
+false
+
+?- sibling(janny, haru).
+false
+
+?- uncle(richard, haru).
+true
+?- uncle(joan, dylan).
+false
+
+?- aunt(joan, dylan).
+true
+?- aunt(annie, haru).
+false
+
+?- cousin(rose, dylan).
+false
