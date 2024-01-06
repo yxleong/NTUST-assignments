@@ -1,5 +1,5 @@
 /*****************************************************************//**
- * File: HiddenWord.cpp
+ * File: hiddenWord.cpp
  * Author: Leong Yah Xuan
  * Create Date: November 28, 2023
  * Update Date: December 3, 2023
