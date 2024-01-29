@@ -4,8 +4,8 @@ This repository contains my code for the Data Structures course at the Departmen
 ## Programming Assignment
 - HomeWork 0. [Palindrome Number](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW0_PalindromeNumber)
 - HomeWork 1
-  - [Taxi Loading Order](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW1_TaxiLoadingOrder)
-  - [Traversal](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW1_Traversal)
+  - [Taxi Loading Order](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW1-1_TaxiLoadingOrder)
+  - [Traversal](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW1-2_Traversal)
 - HomeWork 2. [Bank Account Password Encryptor](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW2_BankAccountPasswordEncryptor)
 - HomeWork 3. [Hidden Word](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW3_HiddenWord)
 - HomeWork 3. [Minimum Height Trees](https://github.com/yxleong/NTUST-assignments/tree/main/CS2002302_DataStructures/HW4_MinimumHeightTrees)
