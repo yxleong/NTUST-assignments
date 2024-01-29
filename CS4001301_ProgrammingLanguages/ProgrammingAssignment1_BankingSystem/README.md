@@ -28,8 +28,8 @@ There are 4 different kinds of accounts:
   
 - `Loan`: like a saving account, but the balance is "negative" (owe the bank money, so a deposit will reduce the amount of the loan); can't withdraw (i.e., loan more money) but of course can deposit (i.e., pay off part of the loan).
   
-Assume that the interest rate of an account is determined when it is created, and that it will not change. Use a simple interest calculation that ignores compounding; e.g., if an account has 12% yearly interest can use 12%/12 = 1% as the monthly rate and
-12%/365 as the daily rate even though this is incorrect (of course).
+Assume that the interest rate of an account is determined when it is created, and that it will not change. Use a simple interest calculation that ignores compounding; e.g., if an account has `12%` yearly interest can use `12% / 12 = 1%` as the monthly rate and
+`12% / 365` as the daily rate even though this is incorrect (of course).
 
 If a method encounters an error condition (such as trying to withdraw too much money from an account) it should use an exception to signal the error to the caller.
 
