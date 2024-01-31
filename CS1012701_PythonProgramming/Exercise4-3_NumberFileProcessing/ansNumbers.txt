@@ -1,0 +1,6 @@
+The file Numbers.txt contains 6 numbers.
+The largest number in the file Numbers.txt is 9.
+The smallest number in the file Numbers.txt is 2.
+The sum of the numbers in the file Numbers.txt is 30.
+The average of the numbers in the file Numbers.txt is 5.0.
+The last number in the file Numbers.txt is 4.
