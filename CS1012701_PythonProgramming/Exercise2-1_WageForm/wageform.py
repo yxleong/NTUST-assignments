@@ -32,15 +32,15 @@ Design — pseudocode:
 RATE = 1.5;
 
 # Request the inputs
-hourlyWage = int(input("Enter the wage:$"))
-regularHours = int(input("Enter the regular hours: "))
-overtimeHours = int(input("Enter the overtime hours: "))
+hourly_wage = int(input("Enter the wage:$"))
+regular_hours = int(input("Enter the regular hours: "))
+overtime_hours = int(input("Enter the overtime hours: "))
 
 # Compute the overtime pay
-overtimePay =  overtimeHours * RATE * hourlyWage
+overtime_pay =  overtime_hours * RATE * hourly_wage
 
 # Compute the total hourly wage
-weeklyPay = hourlyWage * regularHours + overtimePay
+weekly_pay = hourly_wage * regular_hours + overtime_pay
 
 # Display the total hourly wage
-print("The total weekly pay is ${:.2f}".format(weeklyPay))
+print("The total weekly pay is ${:.2f}".format(weekly_pay))
