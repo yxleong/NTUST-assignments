@@ -19,16 +19,16 @@ Design — pseudocode:
 1. The input is
     num
 2. Convertions:
-    charList = list of num
-    numList = list of int(charList[i])
-    sort the numList
+    char_list = list of num
+    num_list = list of int(char_list[i])
+    sort the num_list
 3. Computations:
-    middle = numList[numLength//2]
-    if numLength is even number
-        nextMiddle = numList[numLength//2 - 1]
-        median = (middleNum + nextMiddleNum) / 2
-    if numLength is odd number
-        median = middleNum
+    middle = num_list[num_length//2]
+    if num_length is even number
+        next_middle_num = num_list[num_length//2 - 1]
+        median = (middle_num + next_middle_num) / 2
+    if num_length is odd number
+        median = middle_num
 4. The output is
     float(median)
 """
@@ -37,32 +37,32 @@ Design — pseudocode:
 num = input("Enter the serial number: ")
 
 # Convert the number string to a character list
-charList = list(num)
+char_list = list(num)
 
 # Convert the char list to a interger list
-numList = []
-for x in charList :
-    intX = int(x)
-    numList.append(intX)
+num_list = []
+for x in char_list :
+    digit = int(x)
+    num_list.append(digit)
 
 # Sort the number list in ascending order to calculate median
-numList.sort()
+num_list.sort()
 
 # Get the number of element in number list
-numLength = len(numList)
+num_length = len(num_list)
 
 # Find the middle element in number list
-middleNum = numList[numLength // 2]
+middle_num = num_list[num_length // 2]
 
 #####################################################################
 # If the number of element in number list is even number, the median is the average of two middle numbers;
 # Otherwise, the median is the middle number.
 #######################
-if numLength % 2 == 0:
-    nextMiddleNum = numList[numLength//2 - 1]
-    median = (middleNum + nextMiddleNum) / 2
+if num_length % 2 == 0:
+    next_middle_num = num_list[num_length//2 - 1]
+    median = (middle_num + next_middle_num) / 2
 else:
-    median = middleNum
+    median = middle_num
 
 # Show the output
 print("The median is", float(median))
