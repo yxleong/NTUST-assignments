@@ -9,6 +9,7 @@ This repository contains my code for the Python Programming course at the Depart
 - Exercise 5-1 [Pay-raise Program](https://github.com/yxleong/NTUST-assignments/blob/main/CS1012701_PythonProgramming/Exercise5-1_Pay-raiseProgram.ipynb)
 - Exercise 7-1 & 7-2 [Class Triangle & Class App](https://github.com/yxleong/NTUST-assignments/blob/main/CS1012701_PythonProgramming/Exercise7_class.ipynb)
 - Exercise 8-1 & 8-2 & 8-3 [Change Color & Button & Full Name](https://github.com/yxleong/NTUST-assignments/blob/main/CS1012701_PythonProgramming/Exercise8_button.ipynb)
+- Final Project [Road Crossing Game](https://github.com/yxleong/road-crossing-game)
 
 ## Class Practice
 - Practice 1 [Debug](https://github.com/yxleong/NTUST-assignments/tree/main/CS1012701_PythonProgramming/Practice1_debug)
@@ -20,6 +21,7 @@ This repository contains my code for the Python Programming course at the Depart
 - Practice 6 [Functions](https://github.com/yxleong/NTUST-assignments/blob/main/CS1012701_PythonProgramming/Practice6_Functions.ipynb)
 - Practice 7 [OOP: Rectangle & Bank & Flash Card](https://github.com/yxleong/NTUST-assignments/blob/main/CS1012701_PythonProgramming/Practice7_OOP.ipynb)
 - Practice 8 [OOP: Vehicle & Polygon & Count & Point && Puzzle](https://github.com/yxleong/NTUST-assignments/blob/main/CS1012701_PythonProgramming/Practice8_OOP.ipynb)
+- Class Project [Flipkart]()
 
 ## Course Objectives
 This course introduces core programming basics including data types, control structures, algorithm development, and program design with functions via Python programming. The course will provide a solid foundation in Python programming and also the understanding to the development of computer programs.
