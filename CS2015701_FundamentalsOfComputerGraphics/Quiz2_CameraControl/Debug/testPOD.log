@@ -1,0 +1,7 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.cpp
+D:\User\newDownloads\testPOD\main.cpp(222,32): warning C4305: '+=': truncation from 'double' to 'float'
+D:\User\newDownloads\testPOD\main.cpp(225,32): warning C4305: '-=': truncation from 'double' to 'float'
+D:\User\newDownloads\testPOD\main.cpp(228,32): warning C4305: '-=': truncation from 'double' to 'float'
+D:\User\newDownloads\testPOD\main.cpp(231,32): warning C4305: '+=': truncation from 'double' to 'float'
+  testPOD.vcxproj -> D:\User\newDownloads\testPOD\Debug\main.exe
