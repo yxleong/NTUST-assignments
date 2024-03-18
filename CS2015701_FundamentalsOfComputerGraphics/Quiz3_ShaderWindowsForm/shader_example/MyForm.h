@@ -2,8 +2,7 @@
 #include "DotNetUtilities.h"
 #include "object.h"
 glm::mat4 ProjectionMatrix;
-glm::mat4 ViewMatrix;
-
+glm::mat4 ViewMatrix; 
 #include <cmath> // For sin() and cos()
 #define M_PI 3.14159265358979323846
 
@@ -31,7 +30,6 @@ double minDistance = 0.1;
 bool reTime = false;
 float countTime = 0;
 object grid;
-//object box;
 object pentagram;
 
 namespace shader_example {
@@ -44,7 +42,7 @@ namespace shader_example {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// MyForm ªººK­n
+	/// MyForm çš„æ‘˜è¦
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -53,13 +51,13 @@ namespace shader_example {
 		{
 			InitializeComponent();
 			//
-			//TODO:  ¦b¦¹¥[¤J«Øºc¨ç¦¡µ{¦¡½X
+			//TODO:  åœ¨æ­¤åŠ å…¥å»ºæ§‹å‡½å¼ç¨‹å¼ç¢¼
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// ²M°£¥ô¦ó¨Ï¥Î¤¤ªº¸ê·½¡C
+		/// æ¸…é™¤ä»»ä½•ä½¿ç”¨ä¸­çš„è³‡æºã€‚
 		/// </summary>
 		~MyForm()
 		{
@@ -68,27 +66,27 @@ namespace shader_example {
 				delete components;
 			}
 		}
-	private: HKOGLPanel::HKOGLPanelControl^ hkoglPanelControl1;
-	private: System::Windows::Forms::Timer^ timer1;
-	private: System::ComponentModel::IContainer^ components;
+	private: HKOGLPanel::HKOGLPanelControl^  hkoglPanelControl1;
+	private: System::Windows::Forms::Timer^  timer1;
+	private: System::ComponentModel::IContainer^  components;
 	protected:
 
 	private:
 		/// <summary>
-		/// ³]­p¤u¨ã©Ò»İªºÅÜ¼Æ¡C
+		/// è¨­è¨ˆå·¥å…·æ‰€éœ€çš„è®Šæ•¸ã€‚
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// ¦¹¬°³]­p¤u¨ã¤ä´©©Ò»İªº¤èªk - ½Ğ¤Å¨Ï¥Îµ{¦¡½X½s¿è¾¹­×§ï
-		/// ³o­Ó¤èªkªº¤º®e¡C
+		/// æ­¤ç‚ºè¨­è¨ˆå·¥å…·æ”¯æ´æ‰€éœ€çš„æ–¹æ³• - è«‹å‹¿ä½¿ç”¨ç¨‹å¼ç¢¼ç·¨è¼¯å™¨ä¿®æ”¹
+		/// é€™å€‹æ–¹æ³•çš„å…§å®¹ã€‚
 		/// </summary>
 		void InitializeComponent(void)
 		{
 			this->components = (gcnew System::ComponentModel::Container());
-			HKOGLPanel::HKCOGLPanelCameraSetting^ hkcoglPanelCameraSetting1 = (gcnew HKOGLPanel::HKCOGLPanelCameraSetting());
-			HKOGLPanel::HKCOGLPanelPixelFormat^ hkcoglPanelPixelFormat1 = (gcnew HKOGLPanel::HKCOGLPanelPixelFormat());
+			HKOGLPanel::HKCOGLPanelCameraSetting^  hkcoglPanelCameraSetting1 = (gcnew HKOGLPanel::HKCOGLPanelCameraSetting());
+			HKOGLPanel::HKCOGLPanelPixelFormat^  hkcoglPanelPixelFormat1 = (gcnew HKOGLPanel::HKCOGLPanelPixelFormat());
 			this->hkoglPanelControl1 = (gcnew HKOGLPanel::HKOGLPanelControl());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->SuspendLayout();
@@ -177,7 +175,6 @@ namespace shader_example {
 			grid.setColor(glm::vec3(0.4, 0.4, 0.4));
 			grid.setColor(glm::vec3(0.4, 0.4, 0.4));
 		}
-
 		/*void setBox(float size)
 		{
 			for (int i = 0; i < 24; i++)
@@ -258,10 +255,9 @@ namespace shader_example {
 				}
 			}
 		}
-
 	private: System::Void hkoglPanelControl1_Load(System::Object^  sender, System::EventArgs^  e) {
 
-		//glewªì©l
+		//glewåˆå§‹
 		GLenum res = glewInit();
 		if (res != GLEW_OK) {
 			fprintf(stderr, "Error: '%s'\n", glewGetErrorString(res));
@@ -275,19 +271,14 @@ namespace shader_example {
 			glm::vec3(targetPosition[0], targetPosition[1], targetPosition[2]), // and looks at the origin
 			glm::vec3(0, 1, 0)  // Head is up (set to 0,1,0 to look upside-down)
 		);
-		//ª«¥óªì©l
+		//ç‰©ä»¶åˆå§‹
 		grid.initialize();
 		grid.setShader("./Shader/Base.vert", "./Shader/Base.frag");
 		setGrid();
 
 
-		//box.initialize();
 		pentagram.initialize();
 		pentagram.setShader("./Shader/Base.vert", "./Shader/Base.frag");
-		//box.setShader("./Shader/Base.vert", "./Shader/Base.frag");
-		//setBox(10);
-		//setPentagram(10);
-
 		setPentagram(10);
 
 	}
@@ -296,24 +287,18 @@ namespace shader_example {
 		mat4 model_matrix[2];
 		mat4 scale_matrix, translation_matrix, rotation_matrix;
 		scale_matrix = pentagram.setScale(2.0f, 2.0f, 2.0f);
-		//scale_matrix = box.setScale(2.0f, 2.0f, 2.0f);
 
-		//translation_matrix = box.setTranslate(countTime, 0.0f, 0.0f);
 		translation_matrix = pentagram.setTranslate(countTime, 0.0f, 0.0f);
-		model_matrix[0] = translation_matrix*scale_matrix;  //¬Û¹ï©ó­ìÂIªº°Ê§@¤Î¦ì¸m
+		model_matrix[0] = translation_matrix*scale_matrix;  //ç›¸å°æ–¼åŸé»çš„å‹•ä½œåŠä½ç½®
 
 		pentagram.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[0]);
-		//box.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[0]);
 
 		rotation_matrix = pentagram.setRotate(countTime * 2, 0.0f, 1.0f, 0);
-		//rotation_matrix = box.setRotate(countTime * 2, 0.0f, 1.0f, 0);
-		//translation_matrix = box.setTranslate(0,20,0);
 		translation_matrix = pentagram.setTranslate(0,20,0);
 
-		model_matrix[1] = model_matrix[0] * translation_matrix * rotation_matrix; //¬Û¹ï©ómodel 0 ªº°Ê§@¤Î¦ì¸m
+		model_matrix[1] = model_matrix[0] * translation_matrix * rotation_matrix; //ç›¸å°æ–¼model 0 çš„å‹•ä½œåŠä½ç½®
 		
 		pentagram.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[1]);
-		//box.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[1]);
 	}
 	private: System::Void hkoglPanelControl1_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
 		glClearColor(0, 0, 0, 1);
