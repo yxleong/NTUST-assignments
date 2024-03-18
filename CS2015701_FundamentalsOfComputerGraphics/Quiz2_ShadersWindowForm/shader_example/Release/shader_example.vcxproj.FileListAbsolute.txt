@@ -1,0 +1,4 @@
+D:\User\newDownloads\shader example for windows form\shader_example\shader_example\Release\shader_example.vcxproj.AssemblyReference.cache
+D:\User\newDownloads\shader example for windows form\shader_example\shader_example\Release\shader_example.MyForm.resources
+D:\User\newDownloads\shader example for windows form\shader_example\shader_example\Release\shader_example.vcxproj.GenerateResource.cache
+D:\User\newDownloads\shader example for windows form\shader_example\shader_example\Release\shader_e.CA51EACE.Up2Date

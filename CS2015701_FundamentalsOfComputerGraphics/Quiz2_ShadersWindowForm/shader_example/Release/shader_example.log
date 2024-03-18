@@ -1,0 +1,11 @@
+﻿  MyForm.cpp
+D:\User\newDownloads\shader example for windows form\shader_example\shader_example\MyForm.h(228,47): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'MyForm.cpp')
+  
+D:\User\newDownloads\shader example for windows form\shader_example\shader_example\MyForm.h(228,33): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'MyForm.cpp')
+  
+D:\User\newDownloads\shader example for windows form\shader_example\shader_example\MyForm.h(239,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'MyForm.cpp')
+  
+  shader_example.vcxproj -> D:\User\newDownloads\shader example for windows form\shader_example\Release\shader_example.exe
