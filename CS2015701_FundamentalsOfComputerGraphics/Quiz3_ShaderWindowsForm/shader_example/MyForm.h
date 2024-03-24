@@ -30,6 +30,7 @@ double minDistance = 0.1;
 bool reTime = false;
 float countTime = 0;
 object grid;
+//object box;
 object pentagram;
 
 namespace shader_example {
@@ -275,8 +276,11 @@ namespace shader_example {
 		grid.initialize();
 		grid.setShader("./Shader/Base.vert", "./Shader/Base.frag");
 		setGrid();
-
-
+		
+		//box.initialize();
+		//box.setShader("./Shader/Base.vert", "./Shader/Base.frag");
+		//setBox(10);
+		
 		pentagram.initialize();
 		pentagram.setShader("./Shader/Base.vert", "./Shader/Base.frag");
 		setPentagram(10);
@@ -287,18 +291,24 @@ namespace shader_example {
 		mat4 model_matrix[2];
 		mat4 scale_matrix, translation_matrix, rotation_matrix;
 		scale_matrix = pentagram.setScale(2.0f, 2.0f, 2.0f);
+		//scale_matrix = box.setScale(2.0f, 2.0f, 2.0f);
 
+		//translation_matrix = box.setTranslate(countTime, 0.0f, 0.0f);
 		translation_matrix = pentagram.setTranslate(countTime, 0.0f, 0.0f);
 		model_matrix[0] = translation_matrix*scale_matrix;  //相對於原點的動作及位置
 
 		pentagram.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[0]);
+		//box.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[0]);
 
 		rotation_matrix = pentagram.setRotate(countTime * 2, 0.0f, 1.0f, 0);
 		translation_matrix = pentagram.setTranslate(0,20,0);
+		//rotation_matrix = box.setRotate(countTime * 2, 0.0f, 1.0f, 0);
+		//translation_matrix = box.setTranslate(0,20,0);
 
 		model_matrix[1] = model_matrix[0] * translation_matrix * rotation_matrix; //相對於model 0 的動作及位置
 		
 		pentagram.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[1]);
+		//box.render(GL_QUADS, ProjectionMatrix, ViewMatrix, model_matrix[1]);
 	}
 	private: System::Void hkoglPanelControl1_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
 		glClearColor(0, 0, 0, 1);
