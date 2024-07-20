@@ -2,8 +2,8 @@
 This repository contains my code for the Introduction to Data Science course at the Department of Computer Science and Information Engineering, National Taiwan University of Science and Technology.
 
 ## Programming Assignment
-- Homework 1
-- Homework 2
+- Homework 1 [Weather Model Training for Rainfall Prediction](https://github.com/yxleong/NTUST-assignments/blob/main/CS3047701_IntroductionToDataScience/HW1_WeatherModelTrainingForRainfallPrediction/README.md)
+- Homework 2 [Clustering Songs Using Feature Analysis](https://github.com/yxleong/NTUST-assignments/blob/main/CS3047701_IntroductionToDataScience/HW2_ClusteringSongsUsingFeatureAnalysis/README.md)
 - Final Project [Road Crossing Game](https://github.com/yxleong/road-crossing-game)
 
 ## Course Objectives
