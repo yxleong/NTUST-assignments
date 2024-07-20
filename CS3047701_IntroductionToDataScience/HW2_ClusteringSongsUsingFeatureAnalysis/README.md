@@ -20,9 +20,12 @@ The goal is to cluster songs based on their features. Each row in the dataset re
 
 ## Submission Instructions
 - **Train.csv**: Contains `song_id` for each song along with 13 features, encompassing 40,114 songs in total.
+![alt text](image.png)
 - **Test.csv**: Requires determining if the songs with `song_id` in `col_1` and `col_2` belong to the same cluster.
+  - ![alt text](image-1.png)
   - Example: For `id=0`, determine if songs with `song_id` 16,868 and 39,362 belong to the same cluster.
 - **Submit.csv**: The submission file where the results are recorded. If two songs belong to the same cluster, write 1; otherwise, write 0.
+  - ![alt text](image-2.png)
   - Example: For `id=0`, the `ans` column should contain the result of whether songs with `song_id` 16,868 and 39,362 are of the same type. Continue this for a total of 4000 song pairs.
 
 ## Leaderboard Information
