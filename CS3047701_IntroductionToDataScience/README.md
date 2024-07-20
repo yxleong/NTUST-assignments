@@ -4,7 +4,7 @@ This repository contains my code for the Introduction to Data Science course at 
 ## Programming Assignment
 - Homework 1 [Weather Model Training for Rainfall Prediction](https://github.com/yxleong/NTUST-assignments/blob/main/CS3047701_IntroductionToDataScience/HW1_WeatherModelTrainingForRainfallPrediction/README.md)
 - Homework 2 [Clustering Songs Using Feature Analysis](https://github.com/yxleong/NTUST-assignments/blob/main/CS3047701_IntroductionToDataScience/HW2_ClusteringSongsUsingFeatureAnalysis/README.md)
-- Final Project [Road Crossing Game](https://github.com/yxleong/road-crossing-game)
+- Final Project [Linking Writing Processes to Writing Quality](https://github.com/yxleong/NTUST-assignments/tree/main/CS3047701_IntroductionToDataScience/KaggleProject_LinkingWritingProcessesToWritingQuality)
 
 ## Course Objectives
 This course aims to introduce students to fundamental models and methods of data analysis. It will cover commonly used data analysis and visualization packages in Python and R programming languages. Students will learn how to apply these techniques and tools to analyze real-world data, helping users solve practical problems or provide value-added services. The course's goal is to familiarize students with common data analysis methods and tools. Through group projects, students will gain experience in analyzing real data and develop problem-solving skills.
