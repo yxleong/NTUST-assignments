@@ -1,4 +1,4 @@
-Weather Model Training for Rainfall Prediction
+# Weather Model Training for Rainfall Prediction
 
 ## Homework Description
 This homework involves using data from Kaggle, divided into training data (訓練資料) and test data (測試資料). The task is to first use weather observation samples from the training data to train a model. Then, use the model to predict test data (by inputting observation data for a given day and predicting whether it will rain the next day).
