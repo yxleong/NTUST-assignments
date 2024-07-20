@@ -1,4 +1,4 @@
-# Data Science HW2
+# Clustering Songs Using Feature Analysis
 
 ## Homework Description
 The goal is to cluster songs based on their features. Each row in the dataset represents a song with a unique `song_id` and 13 features. Use these features to cluster songs such that similar songs are grouped together. Song genres may include electronic, hip-hop, rock, etc., and songs of the same genre typically share similar features.
