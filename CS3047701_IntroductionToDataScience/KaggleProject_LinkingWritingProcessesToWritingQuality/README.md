@@ -22,7 +22,6 @@ Franklin, A., King, J., Demkin, M., Bafour, P., Holbrook, R., & Crossley, S. (20
   - **Public score**: 0.595458
 
 ## Other Team Members
-
+* Christopher 余忠信
 * Valencia Lo 羅翡瑩 @rasperberrypie
 * Veronica Lukita 盧清珍 @stiyqr
-* Christopher 余忠信
