@@ -29,7 +29,7 @@ This homework involves using data from Kaggle, divided into training data (è¨“ç·
 ## Submission Instructions
 - Generate prediction results for Attribute 21. Possible values are 0 or 1 (no rain or rain).
 - The format should be as follows:
-![alt text](image.png)
+    - ![alt text](image.png)
     - The uploaded file should contain 823 prediction results, with 2 columns.
     - The first column is id (from 0 to 822, total 823 rows).
     - The second column is ans (prediction of whether it will rain tomorrow, 0 for no rain, 1 for rain).
