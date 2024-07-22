@@ -7,7 +7,7 @@ This repository contains my code for the Introduction to Data Science course at 
 - Final Project [Linking Writing Processes to Writing Quality](https://github.com/yxleong/NTUST-assignments/tree/main/CS3047701_IntroductionToDataScience/KaggleProject_LinkingWritingProcessesToWritingQuality)
 
 ## Course Objectives
-This course aims to introduce students to fundamental models and methods of data analysis. It will cover commonly used data analysis and visualization packages in Python and R programming languages. Students will learn how to apply these techniques and tools to analyze real-world data, helping users solve practical problems or provide value-added services. The course's goal is to familiarize students with common data analysis methods and tools. Through group projects, students will gain experience in analyzing real data and develop problem-solving skills.
+This course aims to introduce students to fundamental models and methods of data analysis. It will cover commonly used data analysis and visualization packages in Python programming languages. Students will learn how to apply these techniques and tools to analyze real-world data, helping users solve practical problems or provide value-added services. The course's goal is to familiarize students with common data analysis methods and tools. Through group projects, students will gain experience in analyzing real data and develop problem-solving skills.
 
 ## Teaching Materials and Bibliography
 - Introduction to Data Mining, by P. - N. Tan, M. Steinbach, A. Karpatne, and V. Kumar 
