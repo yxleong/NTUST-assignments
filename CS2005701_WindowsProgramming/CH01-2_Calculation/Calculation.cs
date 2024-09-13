@@ -35,7 +35,6 @@ namespace ConsoleApp1
 
             // Choice 4:
             //Console.WriteLine("{0} + {1} = {2}", num1, num2, result);
-            
         }
     }
 }
