@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\ClassPractice\ClassPractice\bin\Debug\ClassPractice.exe.config
-C:\Users\user\Desktop\ClassPractice\ClassPractice\bin\Debug\ClassPractice.exe
-C:\Users\user\Desktop\ClassPractice\ClassPractice\bin\Debug\ClassPractice.pdb
-C:\Users\user\Desktop\ClassPractice\ClassPractice\obj\Debug\WriteRead.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\ClassPractice\ClassPractice\obj\Debug\ClassPractice.exe
-C:\Users\user\Desktop\ClassPractice\ClassPractice\obj\Debug\ClassPractice.pdb

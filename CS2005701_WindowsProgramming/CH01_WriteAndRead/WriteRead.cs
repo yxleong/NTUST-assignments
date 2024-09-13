@@ -15,7 +15,7 @@ namespace ClassPractice
             Console.Write("Please input any string: ");
 
             string input;
-            input = Console.ReadLine();
+            input = Console.ReadLine(); // let the inputted string to become a variable 'input'
             Console.WriteLine("Your input is: " + input);
         }
     }
