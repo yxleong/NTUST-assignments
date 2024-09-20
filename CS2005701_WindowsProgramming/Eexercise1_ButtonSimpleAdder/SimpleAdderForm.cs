@@ -12,7 +12,7 @@ namespace SimpleAdder
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Button Clicked!");
+            MessageBox.Show("This is my first C# program");
         }
         
         // ------------------------------------------------------------------
