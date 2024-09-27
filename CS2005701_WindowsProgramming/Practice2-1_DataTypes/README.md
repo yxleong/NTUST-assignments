@@ -1,4 +1,4 @@
-# C# Data Types Program
+# Data Types Program
 
 ## Overview
 
