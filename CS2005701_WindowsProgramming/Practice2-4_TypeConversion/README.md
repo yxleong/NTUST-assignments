@@ -10,5 +10,15 @@ The program performs the following actions:
 3. **Conversion from Float/Double to Int:** Illustrates how to convert floating-point numbers to integers.
 4. **Type Conversion in Arithmetic Calculations:** Demonstrates type conversion during arithmetic operations, showing the difference between integer division and floating-point division.
 
-### Example Input and Output
-#### Program Output
+## Output
+When you run the program, you should see:
+```
+int k = 30000, long l = 30000
+short s = 32767
+int k = 30000, short s = 30000
+int k = 40000, short s = -25536
+int i = 1
+int num = 100, d = 223.449996948242
+f = 3
+f = 3.4
+```
