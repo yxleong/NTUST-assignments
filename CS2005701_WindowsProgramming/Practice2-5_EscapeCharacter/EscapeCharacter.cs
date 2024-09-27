@@ -20,6 +20,7 @@ namespace EscapeCharacter
             Console.WriteLine("Variable ch2 becomes character " + ch2);
 
             Console.WriteLine("My \"C#\" program"); // sign ""
+            Console.WriteLine("My \u0022C#\u0022 program"); // sign ""
         }
     }
 }
