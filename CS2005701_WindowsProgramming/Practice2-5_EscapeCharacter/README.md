@@ -18,6 +18,7 @@ Variable ch2 is character A
 Variable ch1 becomes character '
 Variable ch2 becomes character \
 My "C#" program
+My "C#" program
 ```
 
 ---
