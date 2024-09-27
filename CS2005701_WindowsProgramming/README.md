@@ -1,11 +1,11 @@
 # Windows Programming
 This repository contains my code for the Windows Programming course at the Department of Computer Science and Information Engineering, National Taiwan University of Science and Technology.
 
-## Class Practice
-- Practice 1 [Debug](https://github.com/yxleong/NTUST-assignments/tree/main/CS1012701_WindowsProgramming/Practice1_debug)
-
 ## Programming Assignment
-- Exercise 1
+- Exercise 1 [Button - Simple Adder](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Eexercise1_ButtonSimpleAdder)
+
+- ## Class Practice
+- Practice 1-1 [Write & Read](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice1-1_WriteAndRead)
 
 
 ## Course Objectives
