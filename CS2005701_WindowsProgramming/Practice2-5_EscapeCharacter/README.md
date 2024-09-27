@@ -19,3 +19,16 @@ Variable ch1 becomes character '
 Variable ch2 becomes character \
 My "C#" program
 ```
+
+---
+### Escape Characters Table
+
+| Escape Character | Unicode | Description                     |
+|------------------|---------|---------------------------------|
+| `\b`             | `\u0008`| Backspace                       |
+| `\n`             | `\u000A`| Line feed (LF)                 |
+| `\r`             | `\u000D`| Carriage return (CR)            |
+| `\t`             | `\u0009`| Tab                             |
+| `\'`             | `\u0027`| Single quote (`'`)             |
+| `\"`             | `\u0022`| Double quote (`"`)             |
+| `\\`             | `\u005C`| Backslash (`\`)                |
