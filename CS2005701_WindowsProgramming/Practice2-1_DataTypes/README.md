@@ -1,13 +1,10 @@
 # Data Types Program
 
 ## Overview
-
-This repository contains a C# console application designed to demonstrate various data types and their usage. The program prints examples of different data types, including integers, floating-point numbers, booleans, characters, and strings. It also shows how to use character literals and Unicode characters.
+This C# console application is designed to demonstrate various data types and their usage. The program prints examples of different data types, including integers, floating-point numbers, booleans, characters, and strings. It also shows how to use character literals and Unicode characters.
 
 ## Code Description
-
 The code performs the following actions:
-
 1. Displays an integer value.
 2. Displays a floating-point value.
 3. Shows boolean values.
@@ -16,7 +13,6 @@ The code performs the following actions:
 
 ## Output
 When you run the program, you should see:
-
 ```
 Integer: 100
 Float: 3.14159
@@ -28,7 +24,7 @@ String: Hello, C#
 ```
 ---
 # Data Types in C#
-Understanding data types is crucial for effective programming. Data types define how data is represented and stored in memory, and they determine the size and range of values that can be held.
+Data types define how data is represented and stored in memory, and they determine the size and range of values that can be held.
 
 ## Primitive Data Types
 
