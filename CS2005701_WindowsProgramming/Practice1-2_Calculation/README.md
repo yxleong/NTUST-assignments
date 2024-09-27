@@ -1,7 +1,7 @@
 # Calculation Program
 
 ## Overview
-This C# console application performs basic arithmetic calculations. The program prompts the user to enter two integers and calculates their sum.
+This C# console application prompts the user to enter two integers and calculates their sum.
 
 ## Code Description
 The code performs the following actions:
