@@ -1,7 +1,7 @@
 # Write & Read Program
 
 ## Overview
-This repository contains a C# console application designed to demonstrate basic input and output operations. The program greets the user, requests a string input, and then displays the user's input back to them.
+This C# console application is designed to demonstrate basic input and output operations. The program greets the user, requests a string input, and then displays the user's input back to them.
 
 ## Code Description
 The code performs the following actions:
