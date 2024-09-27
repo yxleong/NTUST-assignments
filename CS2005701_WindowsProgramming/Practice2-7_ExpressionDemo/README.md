@@ -1,4 +1,4 @@
-# ExpressionDemo
+# Expression Demo Program
 
 ## Overview
 This C# console application demonstrates the use of various operators, including increment, assignment, relational, and logical operators. It provides clear examples and outputs the results of each operation to the console.
