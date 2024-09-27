@@ -9,8 +9,15 @@ This repository contains my code for the Windows Programming course at the Depar
 ## Project
 
 ## Course Objectives
-This course introduces core programming basics including data types, control structures, algorithm development, and program design with functions via Python programming. The course will provide a solid foundation in Python programming and also the understanding to the development of computer programs.
+This course introduces the fundamentals of C# programming, focusing on:
+- Basics of C# language
+- Class and interface concepts, including properties, methods, events, delegates, and indexers
+- Introduction to Windows controls and visual programming
+- Message-driven and event-driven programming paradigms
+- Overview of Win32API
+- Designing Windows applications, such as a text editor and graphic browser
 
 ## Teaching Materials and Bibliography
-- "An Introduction to Programming Using Python, Global Edition" by David I. Schneider
-- "Fundamentals of Python: First Programs, Second Edition" by Kenneth A. Lambert
+- "程式設計 基本功與實務範例解析 使用C# (第四版)" by 邱宏彬、邱奕儒
+- "C#網路程式設計" by 張逸中、李美億
+- "影像辨識實務應用 使用C#" by 張逸中、李美億
