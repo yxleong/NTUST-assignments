@@ -1,4 +1,4 @@
-# Square and Cube of the Last Two Digits of Student ID
+# Square & Cube of the Last Two Digits of Student ID
 
 ## Problem Statement
 Write a Java program to perform the following tasks:
