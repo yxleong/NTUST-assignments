@@ -15,7 +15,7 @@ This repository contains my code for the Windows Programming course at the Depar
 - Practice 2-6 [DivisionDemo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-6_DivisionDemo)
 - Practice 2-7 [Expression Demo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-7_ExpressionDemo)
 
-## Class Practice
+## Class Exercise
 - Exercise 1 [Button - Simple Adder](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Exercise1_ButtonSimpleAdder)
 
 ## Course Objectives
