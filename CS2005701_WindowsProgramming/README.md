@@ -15,8 +15,8 @@ This repository contains my code for the Windows Programming course at the Depar
 - Practice 2-3 [Swap](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-3_Swap)
 - Practice 2-4 [Type Conversion](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-4_TypeConversion)
 - Practice 2-5 [Escape Character](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-5_EscapeCharacter)
-- Practice 2-6 [DivisionDemo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-6_DivisionDemo)
-- Practice 2-7 [Expression Demo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-7_ExpressionDemo)
+- Practice 2-6 [DivisionDemo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-6_Division)
+- Practice 2-7 [Expression Demo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-7_Expression)
 
 ## Course Objectives
 This course introduces the fundamentals of C# programming, focusing on:
