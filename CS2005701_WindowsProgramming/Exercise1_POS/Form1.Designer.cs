@@ -370,7 +370,7 @@
             this.Font = new System.Drawing.Font("新細明體", 12F);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "POSOrder 四資工四乙_B11015016_梁婭瑄";
+            this.Text = "POSOrder Department_Student ID_Name";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
