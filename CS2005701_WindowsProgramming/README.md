@@ -2,7 +2,7 @@
 This repository contains my code for the Windows Programming course at the Department of Computer Science and Information Engineering, National Taiwan University of Science and Technology.
 
 ## Programming Assignment
-- Exercise 1 [POS Order System](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Exercise1_POS)
+- Exercise 1 [Restaurant POS System](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Exercise1_POS)
 
 ## Class Practice
 - Practice 1-1 [Write & Read](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice1-1_WriteAndRead)
