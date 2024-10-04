@@ -4,6 +4,9 @@ This repository contains my code for the Windows Programming course at the Depar
 ## Programming Assignment
 - HomeWork 1 [Restaurant POS System](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/HomeWork1_POS)
 
+## Class Exercise
+- Exercise 1 [Button - Simple Adder](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Exercise1_ButtonSimpleAdder)
+  
 ## Class Practice
 - Practice 1-1 [Write & Read](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice1-1_WriteAndRead)
 - Practice 1-2 [Calculation](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice1-2_Calculation)
@@ -14,9 +17,6 @@ This repository contains my code for the Windows Programming course at the Depar
 - Practice 2-5 [Escape Character](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-5_EscapeCharacter)
 - Practice 2-6 [DivisionDemo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-6_DivisionDemo)
 - Practice 2-7 [Expression Demo](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Practice2-7_ExpressionDemo)
-
-## Class Exercise
-- Exercise 1 [Button - Simple Adder](https://github.com/yxleong/NTUST-assignments/tree/main/CS2005701_WindowsProgramming/Exercise1_ButtonSimpleAdder)
 
 ## Course Objectives
 This course introduces the fundamentals of C# programming, focusing on:
