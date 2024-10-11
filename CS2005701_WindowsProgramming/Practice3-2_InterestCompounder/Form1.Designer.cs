@@ -140,7 +140,7 @@ namespace ch3
             this.Controls.Add(this.rate);
             this.Controls.Add(this.amount);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Interest Compounder";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
