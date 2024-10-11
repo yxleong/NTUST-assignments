@@ -22,5 +22,5 @@ Where:
 - Displays the future value of the investment
 
 ## Demo Result
-![alt text](image.png)
-![alt text](image-1.png)
+![interface](image.png)
+![output](image-1.png)
