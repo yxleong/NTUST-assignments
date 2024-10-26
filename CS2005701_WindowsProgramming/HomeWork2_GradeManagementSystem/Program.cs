@@ -6,15 +6,17 @@ using System.Windows.Forms;
 
 namespace B11015016
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
-        /// 應用程式的主要進入點。
+        ///  The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
