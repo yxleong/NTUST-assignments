@@ -127,9 +127,9 @@
             chkFailNum.AutoSize = true;
             chkFailNum.Location = new Point(7, 64);
             chkFailNum.Name = "chkFailNum";
-            chkFailNum.Size = new Size(121, 23);
+            chkFailNum.Size = new Size(162, 23);
             chkFailNum.TabIndex = 4;
-            chkFailNum.Text = "Failed Subjects";
+            chkFailNum.Text = "Failed Subjects Count";
             chkFailNum.UseVisualStyleBackColor = true;
             // 
             // chkAvg
