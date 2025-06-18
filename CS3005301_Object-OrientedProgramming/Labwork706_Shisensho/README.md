@@ -16,11 +16,11 @@ The legal patterns for the connection path are shown as follows:
 
 ![https://hackmd.io/_uploads/HkWh0W0r3.png](https://github.com/yxleong/NTUST-assignments/blob/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/1.png)
 
-![https://hackmd.io/_uploads/rJE3AZCS3.png](https://github.com/yxleong/NTUST-assignments/edit/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/2.png)
+![https://hackmd.io/_uploads/rJE3AZCS3.png](https://github.com/yxleong/NTUST-assignments/blob/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/2.png)
 
-![https://hackmd.io/_uploads/S183Rb0B3.png](https://github.com/yxleong/NTUST-assignments/edit/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/3.png)
+![https://hackmd.io/_uploads/S183Rb0B3.png](https://github.com/yxleong/NTUST-assignments/blob/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/3.png)
 
-![https://hackmd.io/_uploads/B1dnAbArh.png](https://github.com/yxleong/NTUST-assignments/edit/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/4.png)
+![https://hackmd.io/_uploads/B1dnAbArh.png](https://github.com/yxleong/NTUST-assignments/blob/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/4.png)
 
 
 To simplify the game, we start with a 6x6 board and only have 9 different symbols represented by characters '1' to '9'.
