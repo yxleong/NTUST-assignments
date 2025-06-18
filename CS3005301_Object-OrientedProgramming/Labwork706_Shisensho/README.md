@@ -14,7 +14,7 @@ Shisensho is a classic tile-matching game where the objective is to match all pa
 ### Connection Path Examples
 The legal patterns for the connection path are shown as follows:
 
-![https://hackmd.io/_uploads/HkWh0W0r3.png](https://github.com/yxleong/NTUST-assignments/edit/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/1.png)
+![https://hackmd.io/_uploads/HkWh0W0r3.png](https://github.com/yxleong/NTUST-assignments/blob/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/1.png)
 
 ![https://hackmd.io/_uploads/rJE3AZCS3.png](https://github.com/yxleong/NTUST-assignments/edit/main/CS3005301_Object-OrientedProgramming/Labwork706_Shisensho/2.png)
 
